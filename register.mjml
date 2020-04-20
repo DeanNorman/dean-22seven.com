@@ -1,17 +1,20 @@
 <mjml>
+   
    <mj-include path="globals.mjml" /> <!-- globals -->
    <mj-body background-color="#F1F5FB">
+   <mj-wrapper
+      padding="0px 15px">
    <mj-include path="./headerLogo.mjml" /> <!-- Header Logo Include -->
 
-      <mj-section
+      <mj-section 
          background-color="#4e4c64"
          border-radius="15px"
          padding="0px">
-         <mj-column >
+         <mj-column>
             <mj-image
                src="img/header.png"
                alt="Over 100 supported service providers"
-               padding="30px 0px 0px 0px"
+               padding="0px 0px 0px 0px"
                width="400px"/>
          </mj-column>
       </mj-section> <!-- Plain Section -->
@@ -40,7 +43,7 @@
 
          <mj-section /> <!-- spacer -->
 
-         <mj-wrapper mj-class="section">
+         <mj-section mj-class="section">
             <mj-section padding="5px 0px">
                <mj-column>
                   <mj-text mj-class="title">
@@ -92,7 +95,7 @@
                   </mj-text>
                </mj-column> <!-- Detect Double Charge -->
             </mj-section>
-         </mj-wrapper>
+         </mj-section>
          
          <mj-section /> <!-- spacer -->
 
@@ -150,7 +153,7 @@
                      src="img/bank-icon.png"
                      alt="Get Debt Free Icon"
                      width="55px"/>
-                  <mj-text mj-class="text--column--sm">
+                  <mj-text mj-class="text--column">
                      We use the same security measures as banks, governments and the military. 
                   </mj-text>
                </mj-column> <!-- Get Debt Free -->
@@ -159,7 +162,7 @@
                      src="img/lock-icon.png"
                      alt="Detect Double Charge Icon"
                      width="48px"/>
-                  <mj-text mj-class="text--column--sm">
+                  <mj-text mj-class="text--column">
                      Your data is always encrypted. 
                   </mj-text>
                </mj-column> <!-- Detect Double Charge -->
@@ -169,7 +172,7 @@
                      alt="Save Cash Icon"
                      width="54px"/>
                   <mj-text
-                     mj-class="text--column--sm">
+                     mj-class="text--column">
                     22seven is “read-only”, so no one can move money from your linked accounts – not even you. 
                   </mj-text>
                </mj-column> <!-- Detect Double Charge -->
@@ -179,7 +182,7 @@
                      src="img/shield-icon.png"
                      alt="Save Cash Icon"
                      width="43px"/>
-                  <mj-text mj-class="text--column--sm">
+                  <mj-text mj-class="text--column">
                     We’re insured. So you can feel reassured.
                   </mj-text>
                </mj-column> <!-- Detect Double Charge -->
@@ -208,5 +211,6 @@
          <mj-section /> <!-- spacer -->
 
          <mj-include path="./footer.mjml" /> <!-- Footer Include -->
+         </mj-wrapper>
    </mj-body>
 </mjml>
