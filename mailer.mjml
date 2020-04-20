@@ -8,7 +8,7 @@
                href="https://22seven.com" 
                src="img/goggles.png" 
                alt="22seven logo" 
-               align="center"x§
+               align="center"
                padding="10px"
                width="72px"
                height="28px"
@@ -16,13 +16,13 @@
             </mj-column>
          </mj-section> <!-- Logo -->
 
-         <mj-hero
-            mode="fixed-height"
-            height="300px"
-            background-url="img/header.png"
-            background-color="#F1F5FB"
-            padding="100px 0px"></mj-hero> <!-- Hero Image -->
 
+         <mj-section
+            background-url="img/header.png"
+            background-size="105%"
+            padding="149px 0px">
+
+         </mj-section> <!-- Congratulations divider -->
          <mj-section>
             <mj-column>
                <mj-text
@@ -66,7 +66,7 @@
             </mj-column>
          </mj-section> <!-- Plain Section -->
 
-         <mj-spacer height="25px" />
+         <mj-section />
 
          <mj-wrapper
             background-color="#fff"
@@ -170,7 +170,7 @@
             </mj-section>
          </mj-wrapper>
          
-         <mj-spacer height="25px" />
+         <mj-section />
 
          <mj-section
             background-color="#fff"
@@ -223,7 +223,7 @@
             </mj-column>
          </mj-section> <!-- Plain Section -->
 
-         <mj-spacer height="25px" />
+         <mj-section />
 
          <mj-wrapper
             background-color="#fff"
@@ -311,7 +311,7 @@
             </mj-section>
          </mj-wrapper>
 
-         <mj-spacer height="25px" />
+         <mj-section />
 
          <mj-section
             background-color="#4E4C6A"
@@ -342,7 +342,7 @@
             </mj-column>
          </mj-section> <!-- Plain Section -->
 
-         <mj-spacer height="25px" />
+         <mj-section />
 
          <mj-section>
             <mj-column>

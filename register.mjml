@@ -16,13 +16,21 @@
             </mj-column>
          </mj-section> <!-- Logo -->
 
-         <mj-hero
-            mode="fixed-height"
-            height="300px"
-            background-url="img/header.png"
-            background-color="#F1F5FB"
-            padding="100px 0px"></mj-hero> <!-- Hero Image -->
 
+         <mj-section
+            background-color="#4e4c64"
+            border-radius="15px"
+            padding="0px"
+         >
+            <mj-column >
+               <mj-image
+                  src="img/header.png"
+                  alt="Over 100 supported service providers"
+                  padding="30px 0px 0px 0px"
+                  width="400px"/>
+         </mj-section> <!-- Plain Section -->
+
+         <mj-section />
          <mj-section>
             <mj-column>
                <mj-text
@@ -66,7 +74,7 @@
             </mj-column>
          </mj-section> <!-- Plain Section -->
 
-         <mj-section></mj-section>
+         <mj-section />
 
          <mj-wrapper
             background-color="#fff"
@@ -170,7 +178,7 @@
             </mj-section>
          </mj-wrapper>
          
-                  <mj-section></mj-section>
+         <mj-section />
 
          <mj-section
             background-color="#fff"
@@ -223,7 +231,7 @@
             </mj-column>
          </mj-section> <!-- Plain Section -->
 
-                 <mj-section></mj-section>
+         <mj-section />
 
          <mj-wrapper
             background-color="#fff"
@@ -311,7 +319,7 @@
             </mj-section>
          </mj-wrapper>
 
-                  <mj-section></mj-section>
+         <mj-section />
 
          <mj-section
             background-color="#4E4C6A"
@@ -342,7 +350,7 @@
             </mj-column>
          </mj-section> <!-- Plain Section -->
 
-                  <mj-section></mj-section>
+         <mj-section />
 
          <mj-section>
             <mj-column>
@@ -382,26 +390,35 @@
          <mj-wrapper>
             <mj-section >
             <mj-column width="25%">
-               <mj-image padding="0" width="124px" src="img/app-store-badge.png" />
+               <mj-image padding="10px 0" width="124px" src="img/app-store-badge.png" />
             </mj-column>
             <mj-column width="25%">
-               <mj-image padding="0" width="124px" src="img/google-play-badge.png" />
+               <mj-image padding="10px 0" width="124px" src="img/google-play-badge.png" />
             </mj-column>
             </mj-section>
+
             <mj-section >
-               <mj-column width="25%">
-                  <mj-image align="center" width="62px" src="img/facebook.png" />
-               </mj-column>            
-               <mj-column width="18%">
-                  <mj-image align="center" width="62px" src="img/twitter.png" />
-               </mj-column>
-               <mj-column>
-                  <mj-image align="center" width="62px" src="img/instagram.png" />
-               </mj-column>
-               <mj-column>
-                  <mj-image align="center" width="62px" src="img/youtube.png" />
-               </mj-column>
+            <mj-column />
+               <mj-group>
+               <mj-column >
+                     <mj-image  padding="10px 0px" align="center" width="62px" src="img/facebook.png" />
+                  </mj-column>            
+                  <mj-column>
+                     <mj-image padding="10px 0px" align="center" width="62px" src="img/twitter.png" />
+                  </mj-column>
+               </mj-group>
+               <mj-group >
+                  <mj-column>
+                     <mj-image  padding="10px 0px" align="center" width="62px" src="img/instagram.png" />
+                  </mj-column>
+                  <mj-column >
+                     <mj-image  padding="10px 0px" align="center" width="62px" src="img/youtube.png" />
+                  </mj-column>
+               </mj-group>
+               <mj-column />
             </mj-section>
          </mj-wrapper>
+
+
    </mj-body>
 </mjml>
