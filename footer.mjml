@@ -1,0 +1,56 @@
+<mj-section>
+   <mj-column>
+      <mj-image 
+         href="https://22seven.com" 
+         src="img/logo-icon.png" 
+         alt="22seven logo" 
+         align="center"
+         padding="10px"
+         width="122px" />
+      <mj-text align="center">
+         Questions? Comments? Trouble linking?<br/>
+         <a href="#" style="color: #27c5b8;">Contact The Svens</a>, our support team, any day between 8am and 8pm.
+      </mj-text> 
+      <mj-text align="center">
+         Check out our <a href="#" style="color: #27c5b8;">Support pages<a>.
+      </mj-text>
+      <mj-text
+         align="center"
+         line-height="15px">
+         <span style="font-weight: bold">Why you got this email.</span> You signed up with 22seven and we really want to help you do more with your money. We think this and other emails might help. You can <a href="#" style="color: #27c5b8;">opt out</a> of emails with news, updates and tips.
+         <span style="font-weight: bold">To close your 22seven profile</span>, follow the instructions <a href="#" style="color: #27c5b8;">here</a>.
+      </mj-text> 
+   </mj-column>
+</mj-section>
+
+<mj-wrapper>
+   <mj-section>
+      <mj-column width="25%">
+         <mj-image padding="10px 0" width="124px" src="img/app-store-badge.png" />
+      </mj-column>
+      <mj-column width="25%">
+         <mj-image padding="10px 0" width="124px" src="img/google-play-badge.png" />
+      </mj-column>
+   </mj-section>
+
+   <mj-section>
+      <mj-column />
+         <mj-group>
+            <mj-column >
+               <mj-image  padding="10px 0px" align="center" width="62px" src="img/facebook.png" />
+            </mj-column>            
+            <mj-column>
+               <mj-image padding="10px 0px" align="center" width="62px" src="img/twitter.png" />
+            </mj-column>
+         </mj-group>
+         <mj-group >
+            <mj-column>
+               <mj-image  padding="10px 0px" align="center" width="62px" src="img/instagram.png" />
+            </mj-column>
+            <mj-column >
+               <mj-image  padding="10px 0px" align="center" width="62px" src="img/youtube.png" />
+            </mj-column>
+         </mj-group>
+      <mj-column />
+   </mj-section>
+</mj-wrapper>

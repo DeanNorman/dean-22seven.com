@@ -1,94 +1,49 @@
 <mjml>
-   <mj-body
-      background-color="#F1F5FB">
+   <mj-include path="globals.mjml" /> <!-- globals -->
+   <mj-body background-color="#F1F5FB">
+   <mj-include path="./headerLogo.mjml" /> <!-- Header Logo Include -->
 
-         <mj-section>
-            <mj-column>
-            <mj-image 
-               href="https://22seven.com" 
-               src="img/goggles.png" 
-               alt="22seven logo" 
+      <mj-section
+         background-color="#4e4c64"
+         border-radius="15px"
+         padding="0px">
+         <mj-column >
+            <mj-image
+               src="img/header.png"
+               alt="Over 100 supported service providers"
+               padding="30px 0px 0px 0px"
+               width="400px"/>
+         </mj-column>
+      </mj-section> <!-- Plain Section -->
+
+      <mj-section>
+         <mj-column>
+            <mj-text
                align="center"
-               padding="10px"
-               width="72px"
-               height="28px"
-               />
-            </mj-column>
-         </mj-section> <!-- Logo -->
+               font-size="18px"
+               font-weight="600">
+               🎉 &nbsp;Congratulations on signing up with 22seven.
+            </mj-text>
+         </mj-column>
+      </mj-section> <!-- Congratulations divider -->
 
-
-         <mj-section
-            background-color="#4e4c64"
-            border-radius="15px"
-            padding="0px"
-         >
-            <mj-column >
-               <mj-image
-                  src="img/header.png"
-                  alt="Over 100 supported service providers"
-                  padding="30px 0px 0px 0px"
-                  width="400px"/>
-         </mj-section> <!-- Plain Section -->
-
-         <mj-section />
-         <mj-section>
+         <mj-section mj-class="section" padding="15px 0px" >
             <mj-column>
-               <mj-text
-                  align="center"
-                  color="#4E4C6A"
-                  font-size="18px"
-                  font-weight="400"
-                  font-family="helvetica"
-               >
-                  🎉 &nbsp;Congratulations on signing up with 22seven.
-               </mj-text>
-            </mj-column>
-         </mj-section> <!-- Congratulations divider -->
-
-         <mj-section
-            background-color="#fff"
-            border-radius="15px"
-         >
-            <mj-column>
-               <mj-text
-                  align="left"
-                  color="#4E4C6A"
-                  font-size="16px"
-                  font-weight="600"
-                  letter-spacing="0.2px"
-                  font-family="helvetica"
-               >
+               <mj-text mj-class="title">
                   Now you can start finding more money.
                </mj-text>
-               <mj-text
-                  align="left"
-                  color="#4E4C6A"
-                  font-size="13px"
-                  font-weight="300"
-                  letter-spacing="0.2px"
-                  line-height="16px"
-                  font-family="helvetica"
-               >
+               <mj-text mj-class="sectionText--normal">
                   With 22seven’s help, thousands like you are bossing their money: they’re spending better, getting out of debt, saving for stuff they love, and ending the month with more.
                </mj-text>
             </mj-column>
          </mj-section> <!-- Plain Section -->
 
-         <mj-section />
+         <mj-section /> <!-- spacer -->
 
-         <mj-wrapper
-            background-color="#fff"
-            border-radius="15px"
-            padding="0px 0px 5px 0px">
-            <mj-section>
+         <mj-wrapper mj-class="section">
+            <mj-section padding="5px 0px">
                <mj-column>
-                  <mj-text
-                     align="left"
-                     color="#4E4C6A"
-                     font-size="16px"
-                     font-weight="600"
-                     letter-spacing="0.2px"
-                     font-family="helvetica">
+                  <mj-text mj-class="title">
                      22seven helped me…
                   </mj-text>
                </mj-column>
@@ -99,23 +54,10 @@
                      src="img/wallet-icon.png"
                      alt="Get Debt Free Icon"
                      width="84px"/>
-                  <mj-text
-                     align="center"
-                     color="#4E4C6A"
-                     font-size="16px"
-                     font-weight="600"
-                     letter-spacing="0.2px"
-                     font-family="helvetica">
+                  <mj-text mj-class="title--column" >
                      ...get debt free.
                   </mj-text>
-                  <mj-text
-                     align="center"
-                     color="#4E4C6A"
-                     font-size="12px"
-                     font-weight="300"
-                     letter-spacing="0.2px"
-                     font-family="helvetica"
-                     line-height="14px">
+                  <mj-text mj-class="text--column">
                      “I made a decision to turn my financial life around, and 22seven made it a lot easier. Today I’m debt free, from a debt of R40 000 six months ago.”
                      <br/><br/>
                      <b>Thandekile</b>
@@ -126,23 +68,10 @@
                      src="img/phone-icon.png"
                      alt="Detect Double Charge Icon"
                      width="84px"/>
-                  <mj-text
-                     align="center"
-                     color="#4E4C6A"
-                     font-size="16px"
-                     font-weight="600"
-                     letter-spacing="0.2px"
-                     font-family="helvetica">
+                  <mj-text mj-class="title--column" >
                      ...detect being double-charged. 
                   </mj-text>
-                  <mj-text
-                     align="center"
-                     color="#4E4C6A"
-                     font-size="12px"
-                     font-weight="300"
-                     letter-spacing="0.2px"
-                     line-height="14px"
-                     font-family="helvetica">
+                  <mj-text mj-class="text--column">
                      “I am more aware of my spending habits. If you need a reality check about your spending, if you have a goal you are saving towards, this is for you.” 
                      <br/><br/>
                      <b>Manileng</b>
@@ -153,23 +82,10 @@
                      src="img/cash-icon.png"
                      alt="Save Cash Icon"
                      width="84px"/>
-                  <mj-text
-                     align="center"
-                     color="#4E4C6A"
-                     font-size="16px"
-                     font-weight="600"
-                     letter-spacing="0.2px"
-                     font-family="helvetica">
+                  <mj-text mj-class="title--column">
                      ...save 16k. 
                   </mj-text>
-                  <mj-text
-                     align="center"
-                     color="#4E4C6A"
-                     font-size="12px"
-                     font-weight="300"
-                     letter-spacing="0.2px"
-                     line-height="14px"
-                     font-family="helvetica">
+                  <mj-text mj-class="text--column">
                     “Dope app, no problems, everything’s easy, and helped me save 16k since last year.”
                      <br/><br/><br/>
                      <b>Simon</b>
@@ -178,38 +94,25 @@
             </mj-section>
          </mj-wrapper>
          
-         <mj-section />
+         <mj-section /> <!-- spacer -->
 
-         <mj-section
-            background-color="#fff"
-            border-radius="15px"
-         >
+         <mj-section mj-class="section" padding="15px 0px">
             <mj-column>
                <mj-text
                   align="left"
-                  color="#4E4C6A"
-                  font-size="16px"
-                  font-weight="600"
-                  letter-spacing="0.2px"
-                  font-family="helvetica"
+                  mj-class="title"
                >
                   The more accounts you link, the merrier.
                </mj-text>
                <mj-text
                   align="left"
-                  color="#4E4C6A"
-                  font-size="13px"
-                  font-weight="300"
-                  letter-spacing="0.2px"
-                  line-height="16px"
-                  font-family="helvetica"
+                  mj-class="sectionText--normal"
                >
                   Start with the account you use most often, then add from there. The more you link, the more you’ll see about your money, and the more you’ll get out of 22seven.
                </mj-text>
                <mj-button
                   border-radius="20px"
                   background-color="#27C5B8"
-                  font-family="helvetica"
                >
                   Link accounts now
                </mj-button>
@@ -231,21 +134,12 @@
             </mj-column>
          </mj-section> <!-- Plain Section -->
 
-         <mj-section />
+         <mj-section /> <!-- spacer -->
 
-         <mj-wrapper
-            background-color="#fff"
-            border-radius="15px"
-            padding="0px 0px 5px 0px">
-            <mj-section>
+         <mj-wrapper mj-class="section">
+            <mj-section padding="5px 0px">
                <mj-column>
-                  <mj-text
-                     align="left"
-                     color="#4E4C6A"
-                     font-size="16px"
-                     font-weight="600"
-                     letter-spacing="0.2px"
-                     font-family="helvetica">
+                  <mj-text mj-class="title">
                      22seven is serious about security.
                   </mj-text>
                </mj-column>
@@ -256,14 +150,7 @@
                      src="img/bank-icon.png"
                      alt="Get Debt Free Icon"
                      width="55px"/>
-                  <mj-text
-                     align="center"
-                     color="#4E4C6A"
-                     font-size="11px"
-                     font-weight="300"
-                     letter-spacing="0.2px"
-                     font-family="helvetica"
-                     line-height="14px">
+                  <mj-text mj-class="text--column--sm">
                      We use the same security measures as banks, governments and the military. 
                   </mj-text>
                </mj-column> <!-- Get Debt Free -->
@@ -272,14 +159,7 @@
                      src="img/lock-icon.png"
                      alt="Detect Double Charge Icon"
                      width="48px"/>
-                  <mj-text
-                     align="center"
-                     color="#4E4C6A"
-                     font-size="11px"
-                     font-weight="300"
-                     letter-spacing="0.2px"
-                     line-height="14px"
-                     font-family="helvetica">
+                  <mj-text mj-class="text--column--sm">
                      Your data is always encrypted. 
                   </mj-text>
                </mj-column> <!-- Detect Double Charge -->
@@ -289,13 +169,7 @@
                      alt="Save Cash Icon"
                      width="54px"/>
                   <mj-text
-                     align="center"
-                     color="#4E4C6A"
-                     font-size="11px"
-                     font-weight="300"
-                     letter-spacing="0.2px"
-                     line-height="14px"
-                     font-family="helvetica">
+                     mj-class="text--column--sm">
                     22seven is “read-only”, so no one can move money from your linked accounts – not even you. 
                   </mj-text>
                </mj-column> <!-- Detect Double Charge -->
@@ -305,120 +179,34 @@
                      src="img/shield-icon.png"
                      alt="Save Cash Icon"
                      width="43px"/>
-                  <mj-text
-                     align="center"
-                     color="#4E4C6A"
-                     font-size="11px"
-                     font-weight="300"
-                     letter-spacing="0.2px"
-                     line-height="14px"
-                     font-family="helvetica">
+                  <mj-text mj-class="text--column--sm">
                     We’re insured. So you can feel reassured.
                   </mj-text>
                </mj-column> <!-- Detect Double Charge -->
             </mj-section>
          </mj-wrapper>
 
-         <mj-section />
+         <mj-section /> <!-- spacer -->
 
          <mj-section
             background-color="#4E4C6A"
-            border-radius="15px"
-         >
+            border-radius="15px">
             <mj-column>
                <mj-text
-                  align="left"
-                  color="#fff"
-                  font-size="16px"
-                  font-weight="600"
-                  letter-spacing="0.2px"
-                  font-family="helvetica"
-               >
+                  mj-class="title"
+                  color="#fff">
                   💡 Help and tips are at hand
                </mj-text>
                <mj-text
-                  align="left"
-                  color="#fff"
-                  font-size="13px"
-                  font-weight="300"
-                  letter-spacing="0.2px"
-                  line-height="16px"
-                  font-family="helvetica"
-               >
+                  mj-class="sectionText--normal"
+                  color="#fff">
                   Over the next few weeks, we’ll send you some emails with tips on how 22seven can help you boss your money. If you have any questions, ever, feel free to email us, or click here for our Help and FAQ pages.
                </mj-text>
             </mj-column>
          </mj-section> <!-- Plain Section -->
 
-         <mj-section />
+         <mj-section /> <!-- spacer -->
 
-         <mj-section>
-            <mj-column>
-               <mj-image 
-                  href="https://22seven.com" 
-                  src="img/logo-icon.png" 
-                  alt="22seven logo" 
-                  align="center"
-                  padding="10px"
-                  width="122px"
-               />
-               <mj-text
-                  font-family="helvetica"
-                  color="#4e4c6a"
-                  align="center">
-                  Questions? Comments? Trouble linking?<br/>
-                  <a href="#" style="color: #27c5b8;">Contact The Svens</a>, our support team, any day between 8am and 8pm.
-               </mj-text> 
-               <mj-text
-                  font-family="helvetica"
-                  color="#4e4c6a"
-                  align="center"
-                  >
-                  Check out our <a href="#" style="color: #27c5b8;">Support pages<a>.
-               </mj-text>
-               <mj-text
-                  font-family="helvetica"
-                  color="#4e4c6a"
-                  align="center"
-                  line-height="15px">
-                  <span style="font-weight: bold">Why you got this email.</span> You signed up with 22seven and we really want to help you do more with your money. We think this and other emails might help. You can <a href="#" style="color: #27c5b8;">opt out</a> of emails with news, updates and tips.
-                  <span style="font-weight: bold">To close your 22seven profile</span>, follow the instructions <a href="#" style="color: #27c5b8;">here</a>.
-               </mj-text> 
-            </mj-column>
-         </mj-section>
-
-         <mj-wrapper>
-            <mj-section >
-            <mj-column width="25%">
-               <mj-image padding="10px 0" width="124px" src="img/app-store-badge.png" />
-            </mj-column>
-            <mj-column width="25%">
-               <mj-image padding="10px 0" width="124px" src="img/google-play-badge.png" />
-            </mj-column>
-            </mj-section>
-
-            <mj-section >
-            <mj-column />
-               <mj-group>
-               <mj-column >
-                     <mj-image  padding="10px 0px" align="center" width="62px" src="img/facebook.png" />
-                  </mj-column>            
-                  <mj-column>
-                     <mj-image padding="10px 0px" align="center" width="62px" src="img/twitter.png" />
-                  </mj-column>
-               </mj-group>
-               <mj-group >
-                  <mj-column>
-                     <mj-image  padding="10px 0px" align="center" width="62px" src="img/instagram.png" />
-                  </mj-column>
-                  <mj-column >
-                     <mj-image  padding="10px 0px" align="center" width="62px" src="img/youtube.png" />
-                  </mj-column>
-               </mj-group>
-               <mj-column />
-            </mj-section>
-         </mj-wrapper>
-
-
+         <mj-include path="./footer.mjml" /> <!-- Footer Include -->
    </mj-body>
 </mjml>

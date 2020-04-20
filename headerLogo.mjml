@@ -1,0 +1,13 @@
+<mj-section>
+   <mj-column>
+      <mj-image 
+         href="https://22seven.com" 
+         src="img/goggles.png" 
+         alt="22seven logo" 
+         align="center"
+         padding="10px"
+         width="72px"
+         height="28px"
+         />
+   </mj-column>
+</mj-section> <!-- Logo -->
