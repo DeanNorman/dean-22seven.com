@@ -34,44 +34,24 @@
    </mj-section>
 
    <mj-section>
-      <mj-column />
-         <mj-group>
-            <mj-column >
-               <mj-image href="https://www.facebook.com/ilike22seven/"  padding="10px 0px" align="center" width="62px" src="img/facebook.png" />
-            </mj-column>            
-            <mj-column>
-               <mj-image href="https://twitter.com/22seven/" padding="10px 0px" align="center" width="62px" src="img/twitter.png" />
-            </mj-column>
-            <mj-column>
-               <mj-image href="https://www.instagram.com/ilike22seven/"  padding="10px 0px" align="center" width="62px" src="img/instagram.png" />
-            </mj-column>
-            <mj-column>
-               <mj-image href="https://www.linkedin.com/company/ilike22seven/"  padding="10px 0px" align="center" width="62px" src="img/linkedin.png" />
-            </mj-column>
-            <mj-column >
-               <mj-image href="https://www.youtube.com/channel/UC67gilqN1j-ZtW_XCNA-ycQ/videos"  padding="10px 0px" align="center" width="62px" src="img/youtube.png" />
-            </mj-column>   
-         </mj-group>
-         <mj-social mode="horizontal">
+      <mj-column width="100%">
+         <mj-social mode="horizontal" align="center" icon-size="62px">
           <mj-social-element 
             src="img/facebook.png" 
-            href="https://mjml.io/" />
+            href="https://www.facebook.com/ilike22seven/" />
           <mj-social-element
             src="img/twitter.png"
-            href="https://mjml.io/" />
+            href="https://twitter.com/22seven/" />
           <mj-social-element
             src="img/instagram.png"
-            href="https://mjml.io/" />
+            href="https://www.instagram.com/ilike22seven/" />
           <mj-social-element
             src="img/linkedin.png"
-            href="https://mjml.io/" />
+            href="https://www.linkedin.com/company/ilike22seven/" />
           <mj-social-element
             src="img/youtube.png"
-            href="https://mjml.io/" />
+            href="https://www.youtube.com/channel/UC67gilqN1j-ZtW_XCNA-ycQ/videos" />
         </mj-social>
-      <mj-column />
+      </mj-column>
    </mj-section>
 </mj-wrapper>
-<mj-social-element href="url" src="img/youtube.png">
-  
-</mj-social-element>
