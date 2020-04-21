@@ -9,16 +9,16 @@
          width="122px" />
       <mj-text align="center">
          Questions? Comments? Trouble linking?<br/>
-         <a href="#" style="color: #27c5b8;">Contact The Svens</a>, our support team, any day between 8am and 8pm.
+         <a href="mailto:thesvens@22seven.com" style="color: #27c5b8;">Contact The Svens</a>, our support team, any day between 8am and 8pm.
       </mj-text> 
       <mj-text align="center">
-         Check out our <a href="#" style="color: #27c5b8;">Support pages<a>.
+         Check out our <a href="https://conversations.22seven.com/hc/en-us" style="color: #27c5b8;">Support pages<a>.
       </mj-text>
       <mj-text
          align="center"
          line-height="15px">
-         <span style="font-weight: bold">Why you got this email.</span> You signed up with 22seven and we really want to help you do more with your money. We think this and other emails might help. You can <a href="#" style="color: #27c5b8;">opt out</a> of emails with news, updates and tips.
-         <span style="font-weight: bold">To close your 22seven profile</span>, follow the instructions <a href="#" style="color: #27c5b8;">here</a>.
+         <span style="font-weight: bold">Why you got this email.</span> You signed up with 22seven and we really want to help you do more with your money. We think this and other emails might help. You can <a href="*|BASE_URL|*app/unsubscribe/*|C_ID|*?utm_source=*|MAIL_NAME|*&utm_medium=email&utm_campaign=InService" style="color: #27c5b8;">opt out</a> of emails with news, updates and tips.
+         <span style="font-weight: bold">To close your 22seven profile</span>, follow the instructions <a href="https://conversations.22seven.com/hc/en-us/articles/200541998-How-do-I-close-my-22seven-profile-/ " style="color: #27c5b8;">here</a>.
       </mj-text> 
    </mj-column>
 </mj-section>
@@ -26,10 +26,10 @@
 <mj-wrapper>
    <mj-section>
       <mj-column width="25%">
-         <mj-image padding="10px 0" width="124px" src="img/app-store-badge.png" />
+         <mj-image href="https://play.google.com/store/apps/details?id=com.twentytwoseven.android" padding="10px 0" width="124px" src="img/app-store-badge.png" />
       </mj-column>
       <mj-column width="25%">
-         <mj-image padding="10px 0" width="124px" src="img/google-play-badge.png" />
+         <mj-image href="https://apps.apple.com/app/22seven/id611120440" padding="10px 0" width="124px" src="img/google-play-badge.png" />
       </mj-column>
    </mj-section>
 
@@ -37,18 +37,18 @@
       <mj-column />
          <mj-group>
             <mj-column >
-               <mj-image  padding="10px 0px" align="center" width="62px" src="img/facebook.png" />
+               <mj-image href="https://www.facebook.com/ilike22seven/"  padding="10px 0px" align="center" width="62px" src="img/facebook.png" />
             </mj-column>            
             <mj-column>
-               <mj-image padding="10px 0px" align="center" width="62px" src="img/twitter.png" />
+               <mj-image href="https://twitter.com/22seven/" padding="10px 0px" align="center" width="62px" src="img/twitter.png" />
             </mj-column>
          </mj-group>
          <mj-group >
             <mj-column>
-               <mj-image  padding="10px 0px" align="center" width="62px" src="img/instagram.png" />
+               <mj-image href="https://www.instagram.com/ilike22seven/"  padding="10px 0px" align="center" width="62px" src="img/instagram.png" />
             </mj-column>
             <mj-column >
-               <mj-image  padding="10px 0px" align="center" width="62px" src="img/youtube.png" />
+               <mj-image href="https://www.youtube.com/channel/UC67gilqN1j-ZtW_XCNA-ycQ/videos"  padding="10px 0px" align="center" width="62px" src="img/youtube.png" />
             </mj-column>
          </mj-group>
       <mj-column />

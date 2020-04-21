@@ -2,22 +2,23 @@
    
    <mj-include path="globals.mjml" /> <!-- globals -->
    <mj-body background-color="#F1F5FB">
-   <mj-wrapper
-      padding="0px 15px">
    <mj-include path="./headerLogo.mjml" /> <!-- Header Logo Include -->
+      
+      <mj-wrapper padding="0 15px">
+         <mj-section 
+            background-color="#4e4c64"
+            border-radius="15px"
+            padding="0px">
+            <mj-column>
+               <mj-image
+                  src="img/header.png"
+                  alt="Over 100 supported service providers"
+                  padding="0px 0px 0px 0px"
+                  width="320px"/>
+            </mj-column>
+         </mj-section> <!-- Plain Section -->
+      </mj-wrapper>
 
-      <mj-section 
-         background-color="#4e4c64"
-         border-radius="15px"
-         padding="0px">
-         <mj-column>
-            <mj-image
-               src="img/header.png"
-               alt="Over 100 supported service providers"
-               padding="0px 0px 0px 0px"
-               width="400px"/>
-         </mj-column>
-      </mj-section> <!-- Plain Section -->
 
       <mj-section>
          <mj-column>
@@ -30,6 +31,7 @@
          </mj-column>
       </mj-section> <!-- Congratulations divider -->
 
+      <mj-wrapper padding="0 15px">
          <mj-section mj-class="section" padding="15px 0px" >
             <mj-column>
                <mj-text mj-class="title">
@@ -40,24 +42,25 @@
                </mj-text>
             </mj-column>
          </mj-section> <!-- Plain Section -->
+      </mj-wrapper>
 
-         <mj-section /> <!-- spacer -->
+      <mj-section /> <!-- spacer -->
 
-         <mj-section mj-class="section">
-            <mj-section padding="5px 0px">
-               <mj-column>
+      <mj-wrapper padding="5px 15px">
+            <mj-section  mj-class="section">
+               <mj-column width="100%" padding="0px 0px 10px">
                   <mj-text mj-class="title">
                      22seven helped me…
                   </mj-text>
                </mj-column>
-            </mj-section>
-            <mj-section>
-               <mj-column>
+
+               <mj-column width="33%">
                   <mj-image
+                  align="center"
                      src="img/wallet-icon.png"
                      alt="Get Debt Free Icon"
                      width="84px"/>
-                  <mj-text mj-class="title--column" >
+                  <mj-text mj-class="title--column">
                      ...get debt free.
                   </mj-text>
                   <mj-text mj-class="text--column">
@@ -66,7 +69,8 @@
                      <b>Thandekile</b>
                   </mj-text>
                </mj-column> <!-- Get Debt Free -->
-               <mj-column>
+
+                <mj-column width="33%">
                   <mj-image
                      src="img/phone-icon.png"
                      alt="Detect Double Charge Icon"
@@ -80,7 +84,8 @@
                      <b>Manileng</b>
                   </mj-text>
                </mj-column> <!-- Detect Double Charge -->
-               <mj-column vertical-align="top">
+
+                <mj-column width="33%">
                   <mj-image
                      src="img/cash-icon.png"
                      alt="Save Cash Icon"
@@ -94,11 +99,13 @@
                      <b>Simon</b>
                   </mj-text>
                </mj-column> <!-- Detect Double Charge -->
-            </mj-section>
-         </mj-section>
-         
+
+      </mj-wrapper>
+
          <mj-section /> <!-- spacer -->
 
+
+      <mj-wrapper padding="0 15px">
          <mj-section mj-class="section" padding="15px 0px">
             <mj-column>
                <mj-text
@@ -136,19 +143,19 @@
                   width="260px"/>
             </mj-column>
          </mj-section> <!-- Plain Section -->
+      </mj-wrapper>
 
          <mj-section /> <!-- spacer -->
 
-         <mj-wrapper mj-class="section">
-            <mj-section padding="5px 0px">
-               <mj-column>
+         <mj-wrapper padding="0 15px">
+            <mj-section mj-class="section" padding="15px 0px">
+               <mj-column width="100%" padding="0 0 10px 0">
                   <mj-text mj-class="title">
                      22seven is serious about security.
                   </mj-text>
                </mj-column>
-            </mj-section>
-            <mj-section>
-               <mj-column>
+
+               <mj-column width="25%">
                   <mj-image
                      src="img/bank-icon.png"
                      alt="Get Debt Free Icon"
@@ -157,7 +164,7 @@
                      We use the same security measures as banks, governments and the military. 
                   </mj-text>
                </mj-column> <!-- Get Debt Free -->
-               <mj-column>
+               <mj-column width="25%">
                   <mj-image
                      src="img/lock-icon.png"
                      alt="Detect Double Charge Icon"
@@ -166,7 +173,7 @@
                      Your data is always encrypted. 
                   </mj-text>
                </mj-column> <!-- Detect Double Charge -->
-               <mj-column vertical-align="top">
+               <mj-column width="25%">
                   <mj-image
                      src="img/mag-icon.png"
                      alt="Save Cash Icon"
@@ -177,7 +184,7 @@
                   </mj-text>
                </mj-column> <!-- Detect Double Charge -->
                               
-               <mj-column vertical-align="top">
+               <mj-column width="25%">
                   <mj-image
                      src="img/shield-icon.png"
                      alt="Save Cash Icon"
@@ -186,31 +193,31 @@
                     We’re insured. So you can feel reassured.
                   </mj-text>
                </mj-column> <!-- Detect Double Charge -->
-            </mj-section>
          </mj-wrapper>
 
          <mj-section /> <!-- spacer -->
-
-         <mj-section
-            background-color="#4E4C6A"
-            border-radius="15px">
-            <mj-column>
-               <mj-text
-                  mj-class="title"
-                  color="#fff">
-                  💡 Help and tips are at hand
-               </mj-text>
-               <mj-text
-                  mj-class="sectionText--normal"
-                  color="#fff">
-                  Over the next few weeks, we’ll send you some emails with tips on how 22seven can help you boss your money. If you have any questions, ever, feel free to email us, or click here for our Help and FAQ pages.
-               </mj-text>
-            </mj-column>
-         </mj-section> <!-- Plain Section -->
+         
+         <mj-wrapper padding="0 15px">
+            <mj-section
+               background-color="#4E4C6A"
+               border-radius="15px">
+               <mj-column>
+                  <mj-text
+                     mj-class="title"
+                     color="#fff">
+                     💡 Help and tips are at hand
+                  </mj-text>
+                  <mj-text
+                     mj-class="sectionText--normal"
+                     color="#fff">
+                     Over the next few weeks, we’ll send you some emails with tips on how 22seven can help you boss your money. If you have any questions, ever, feel free to email us, or click here for our Help and FAQ pages.
+                  </mj-text>
+               </mj-column>
+            </mj-section> <!-- Plain Section -->
+         </mj-wrapper>
 
          <mj-section /> <!-- spacer -->
 
          <mj-include path="./footer.mjml" /> <!-- Footer Include -->
-         </mj-wrapper>
    </mj-body>
 </mjml>
