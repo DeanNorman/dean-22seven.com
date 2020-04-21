@@ -1,14 +1,14 @@
 <mj-section>
    <mj-column>
       <mj-image 
-         href="https://22seven.com" 
+         href="https://22seven.com?utm_source=*|MAIL_NAME|*&amp;utm_medium=email&amp;utm_campaign=InService" 
          src="img/logo-icon.png" 
          alt="22seven logo" 
          align="center"
          padding="10px"
          width="122px" />
       <mj-text align="center">
-         Questions? Comments? Trouble linking?<br/>
+         Questions? Comments? Good Jokes?<br/>
          <a href="mailto:thesvens@22seven.com" style="color: #27c5b8;">Contact The Svens</a>, our support team, any day between 8am and 8pm.
       </mj-text> 
       <mj-text align="center">
@@ -18,7 +18,7 @@
          align="center"
          line-height="15px">
          <span style="font-weight: bold">Why you got this email.</span> You signed up with 22seven and we really want to help you do more with your money. We think this and other emails might help. You can <a href="*|BASE_URL|*app/unsubscribe/*|C_ID|*?utm_source=*|MAIL_NAME|*&utm_medium=email&utm_campaign=InService" style="color: #27c5b8;">opt out</a> of emails with news, updates and tips.
-         <span style="font-weight: bold">To close your 22seven profile</span>, follow the instructions <a href="https://conversations.22seven.com/hc/en-us/articles/200541998-How-do-I-close-my-22seven-profile-/ " style="color: #27c5b8;">here</a>.
+         <span style="font-weight: bold">To close your 22seven profile</span>, follow the instructions <a href="https://conversations.22seven.com/hc/en-us/articles/200541998-How-do-I-close-my-22seven-profile-/?utm_source=*|MAIL_NAME|*&amp;utm_medium=email&amp;utm_campaign=InService " style="color: #27c5b8;">here</a>.
       </mj-text> 
    </mj-column>
 </mj-section>
@@ -42,15 +42,36 @@
             <mj-column>
                <mj-image href="https://twitter.com/22seven/" padding="10px 0px" align="center" width="62px" src="img/twitter.png" />
             </mj-column>
-         </mj-group>
-         <mj-group >
             <mj-column>
                <mj-image href="https://www.instagram.com/ilike22seven/"  padding="10px 0px" align="center" width="62px" src="img/instagram.png" />
             </mj-column>
+            <mj-column>
+               <mj-image href="https://www.linkedin.com/company/ilike22seven/"  padding="10px 0px" align="center" width="62px" src="img/linkedin.png" />
+            </mj-column>
             <mj-column >
                <mj-image href="https://www.youtube.com/channel/UC67gilqN1j-ZtW_XCNA-ycQ/videos"  padding="10px 0px" align="center" width="62px" src="img/youtube.png" />
-            </mj-column>
+            </mj-column>   
          </mj-group>
+         <mj-social mode="horizontal">
+          <mj-social-element 
+            src="img/facebook.png" 
+            href="https://mjml.io/" />
+          <mj-social-element
+            src="img/twitter.png"
+            href="https://mjml.io/" />
+          <mj-social-element
+            src="img/instagram.png"
+            href="https://mjml.io/" />
+          <mj-social-element
+            src="img/linkedin.png"
+            href="https://mjml.io/" />
+          <mj-social-element
+            src="img/youtube.png"
+            href="https://mjml.io/" />
+        </mj-social>
       <mj-column />
    </mj-section>
 </mj-wrapper>
+<mj-social-element href="url" src="img/youtube.png">
+  
+</mj-social-element>
