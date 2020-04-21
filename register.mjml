@@ -11,7 +11,7 @@
             <mj-column>
                <mj-image
                   src="img/header.png"
-                  alt="Over 100 supported service providers"
+                  alt="Welcome to 22seven"
                   padding="0px 0px 0px 0px"
                   width="320px"/>
             </mj-column>
@@ -101,8 +101,7 @@
 
       </mj-wrapper>
 
-         <mj-section /> <!-- spacer -->
-
+      <mj-section /> <!-- spacer -->
 
       <mj-wrapper padding="0 15px">
          <mj-section mj-class="section" padding="15px 0px">
@@ -133,12 +132,12 @@
                   width="400px"/>
                <mj-image
                   src="img/entrust-icon.png"
-                  alt="Over 100 supported service providers"
+                  alt="Entrust"
                   align="center"
                   width="50px"/>
                <mj-image
                   src="img/secure-icon.png"
-                  alt="Over 100 supported service providers"
+                  alt="Your data is secure, private and insured"
                   align="center"
                   width="260px"/>
             </mj-column>
@@ -158,7 +157,7 @@
                <mj-column width="25%">
                   <mj-image
                      src="img/bank-icon.png"
-                     alt="Get Debt Free Icon"
+                     alt="Vault Icon"
                      width="55px"/>
                   <mj-text mj-class="text--column">
                      We use the same security measures as banks, governments and the military. 
@@ -167,7 +166,7 @@
                <mj-column width="25%">
                   <mj-image
                      src="img/lock-icon.png"
-                     alt="Detect Double Charge Icon"
+                     alt="Encryption Icon"
                      width="48px"/>
                   <mj-text mj-class="text--column">
                      Your data is always encrypted. 
@@ -176,7 +175,7 @@
                <mj-column width="25%">
                   <mj-image
                      src="img/mag-icon.png"
-                     alt="Save Cash Icon"
+                     alt="Magnifying Glass Icon"
                      width="54px"/>
                   <mj-text
                      mj-class="text--column">
@@ -187,7 +186,7 @@
                <mj-column width="25%">
                   <mj-image
                      src="img/shield-icon.png"
-                     alt="Save Cash Icon"
+                     alt="Shield Icon"
                      width="43px"/>
                   <mj-text mj-class="text--column">
                     We’re insured. So you can feel reassured.
