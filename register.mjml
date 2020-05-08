@@ -150,7 +150,7 @@
             <mj-section mj-class="section" padding="15px 0px">
                <mj-column width="100%" padding="0 0 10px 0">
                   <mj-text mj-class="title">
-                     22seven is serious about <a href="https://22seven.com/security?utm_source=*|MAIL_NAME|*&amp;utm_medium=email&amp;utm_campaign=InService" style="color:#27cbb5; text-decoration:none ">security</a>.
+                     22seven is serious about <a href="#" style="color:#27cbb5; text-decoration:none ">security</a>.
                   </mj-text>
                </mj-column>
 
@@ -209,7 +209,7 @@
                   <mj-text
                      mj-class="sectionText--normal"
                      color="#fff">
-                     Over the next few weeks, we’ll send you some emails with tips on how 22seven can help you boss your money. If you have any questions, ever, feel free to <a href="mailto:thesvens@22seven.com" style="color: #ffffff">email us</a>, or <a href="https://conversations.22seven.com/hc/en-us?utm_source=*|MAIL_NAME|*&amp;utm_medium=email&amp;utm_campaign=InService" style="color: #ffffff">click here</a> for our Help and FAQ pages.
+                     Over the next few weeks, we’ll send you some emails with tips on how 22seven can help you boss your money. If you have any questions, ever, feel free to <a href="#" style="color: #ffffff">email us</a>, or <a href="#" style="color: #ffffff">click here</a> for our Help and FAQ pages.
                   </mj-text>
                </mj-column>
             </mj-section> <!-- Plain Section -->
