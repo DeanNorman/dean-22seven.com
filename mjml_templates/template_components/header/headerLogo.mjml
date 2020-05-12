@@ -3,7 +3,7 @@
    padding="20px 0px">
       <mj-image 
          href="https://22seven.com?utm_source=*|MAIL_NAME|*&amp;utm_medium=email&amp;utm_campaign=InService" 
-         src="img/goggles.png" 
+         src="../../template_components/header/img/goggles.png" 
          alt="22seven logo" 
          align="center"
          padding="10px"
