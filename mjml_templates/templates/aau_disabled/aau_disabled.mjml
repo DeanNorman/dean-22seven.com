@@ -36,9 +36,14 @@
                      Try to check in once a week.
                </mj-text>
                <mj-text mj-class="sectionText--normal">
-                  We know that the more people engage with their money, the better they are with it. Some people check in on 22seven every day. But even weekly is probably going to have some very positive consequences. At the very least, we suggest you check in once a month. 
+                  We know that the more people engage with their money, the better they are with it. Some people check in on 22seven every day. But even weekly is probably going to have some very positive consequences.
+                  <br/> <br/>
+                  At the very least, we suggest you log in once a month so your accounts and transactions will always be up to date. 
                </mj-text>
-               <mj-image
+
+            </mj-column>
+            <mj-column>
+                           <mj-image
                   align="center"
                   src="./img/calender.png"
                   alt="Get Debt Free Icon"
@@ -71,12 +76,12 @@
                   <br/><br/>
                </mj-text>
                <mj-button
-                  href="*|BASE_URL|*app/settings/auto-account-update?utm_source=*|MAIL_NAME|*&amp;utm_medium=email&amp;utm_campaign=InService"
+                  href="*|BASE_URL|*app/settings/auto-account-update"
                   border-radius="20px"
                   background-color="#27C5B8"
-                  width="85%"
+                  width="50%"
                >
-                  Choose a time for your Automatic Updates on Automatic Updates
+                  Switch on Automatic Updates
                </mj-button>
             </mj-column> <!-- Get Debt Free -->
 
