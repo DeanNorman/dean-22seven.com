@@ -33,7 +33,7 @@
          <mj-section mj-class="section" padding="15px 0px" >
             <mj-column>
                <mj-text mj-class="title">
-                     Try to check in once a week.
+                     Try to check in once a week, or at least once a month.
                </mj-text>
                <mj-text mj-class="sectionText--normal">
                   We know that the more people engage with their money, the better they are with it. Some people check in on 22seven every day. But even weekly is probably going to have some very positive consequences.
@@ -58,7 +58,7 @@
          <mj-section  mj-class="section">
             <mj-column width="100%" padding="0px 0px 10px">
                <mj-text mj-class="title">
-                  Keep Automatic Account Updates on.
+                 Switch on Automatic Account Updates.
                </mj-text>
             </mj-column>
 
@@ -72,8 +72,6 @@
                <mj-text mj-class="sectionText--normal">
                  This way, you know that your linked accounts are updated for you, every day, without you having to do anything. And that means you’ll never lose any transactions. (Some account updates only go back 30 days, so if you leave a month between log-ins, you risk losing older transactions.)
                   <br/><br/>
-                  Remember, you can choose what time you want the updates to happen. 
-                  <br/><br/>
                </mj-text>
                <mj-button
                   href="*|BASE_URL|*app/settings/auto-account-update"
@@ -83,6 +81,11 @@
                >
                   Switch on Automatic Updates
                </mj-button>
+               <mj-text mj-class="sectionText--normal">
+                  <br/>
+                 You can choose what time you want the updates to happen so you’ll know it's us when you get login sms’s from the bank each day.
+                  <br/><br/>
+               </mj-text>
             </mj-column> <!-- Get Debt Free -->
 
           
