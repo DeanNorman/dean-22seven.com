@@ -25,7 +25,7 @@
       <mj-text
          align="left"
          line-height="15px">
-         <span style="font-weight: bold">Why you got this email.</span> You signed up with 22seven and we really want to help you do more with your money. We think this and other emails might help. You can <a href="*|BASE_URL|*app/unsubscribe/*|C_ID|*?utm_source=*|MAIL_NAME|*&utm_medium=email&utm_campaign=InService" style="color: #27c5b8;">opt out</a> of emails with news, updates and tips.
+         <span style="font-weight: bold">Why you got this email.</span> You signed up with 22seven and we really want to help you boss your money. We think this and other emails might help. You can <a href="*|BASE_URL|*app/unsubscribe/*|C_ID|*?utm_source=*|MAIL_NAME|*&utm_medium=email&utm_campaign=InService" style="color: #27c5b8;">opt out</a> of emails with news, updates and tips.
          <span style="font-weight: bold">To close your 22seven profile</span>, follow the instructions <a href="https://conversations.22seven.com/hc/en-us/articles/200541998-How-do-I-close-my-22seven-profile-/?utm_source=*|MAIL_NAME|*&amp;utm_medium=email&amp;utm_campaign=InService " style="color: #27c5b8;">here</a>.
       </mj-text> 
    </mj-column>
@@ -37,15 +37,15 @@
          <mj-image
             src="../../template_components/footer/img/app-store-badge.png" 
             alt="22seven Appstore link"
-            width="124px" 
-            href="https://play.google.com/store/apps/details?id=com.twentytwoseven.android"
+            width="124px"
+            href="https://apps.apple.com/app/22seven/id611120440" 
             padding="10px 0" />
       </mj-column>
       <mj-column width="25%">
          <mj-image
             src="../../template_components/footer/img/google-play-badge.png"
             alt="Google Playstore link"
-            href="https://apps.apple.com/app/22seven/id611120440"
+             href="https://play.google.com/store/apps/details?id=com.twentytwoseven.android"
             padding="10px 0"
             width="124px"  />
       </mj-column>

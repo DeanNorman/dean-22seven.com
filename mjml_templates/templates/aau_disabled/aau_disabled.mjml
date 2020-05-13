@@ -70,7 +70,7 @@
                  />
 
                <mj-text mj-class="sectionText--normal">
-                 This way, you know that your linked accounts are updated for you, every day, without you having to do anything. And that means you’ll never lose any transactions. (Some account updates only go back 30 days, so if you leave a month between log-ins, you risk losing older transactions.)
+                  This way, we update your linked accounts for you, every day, without you having to do anything. And that means you’ll never lose any transactions. (Some account updates only go back 30 days, so if you leave a month between log-ins, you risk losing older transactions.)
                   <br/><br/>
                </mj-text>
                <mj-button
