@@ -58,7 +58,7 @@
          <mj-section  mj-class="section">
             <mj-column width="100%" padding="0px 0px 10px">
                <mj-text mj-class="title">
-                 Switch on Automatic Account Updates.
+                 Switch Automatic Account Updates on.
                </mj-text>
             </mj-column>
 
@@ -79,7 +79,7 @@
                   background-color="#27C5B8"
                   width="50%"
                >
-                  Switch on Automatic Updates
+                  Switch Automatic Updates on
                </mj-button>
                <mj-text mj-class="sectionText--normal">
                   <br/>
