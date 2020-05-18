@@ -5,24 +5,24 @@
       
    <mj-wrapper padding="0 15px">
       <mj-section 
-         background-color="#4e4c64"
+         background-color="#6A678B"
          border-radius="15px"
          padding="0px">
             <mj-column width="65%">
                <mj-image
                   src="./img/header-text.png"
                   alt="Welcome to 22seven"
-                  padding-top="70px"
-                  width="400px"
+                  padding-top="45px"
+                  width="330px"
                   align="center"/>
             </mj-column>
             <mj-column width="35%">
                <mj-image
-                  align="center"
+                  align="right"
                   src="./img/man.png"
                   alt="Welcome to 22seven"
-                  padding="0px 20px 0px 0px"
-                  width="150px"/>
+                  padding="10px 30px 0px 0px"
+                  width="100px"/>
             </mj-column>
          </mj-section> <!-- Plain Section -->
       </mj-wrapper>
@@ -74,7 +74,7 @@
                   href="*|BASE_URL|*app/settings/auto-account-update?utm_source=*|MAIL_NAME|*&amp;utm_medium=email&amp;utm_campaign=InService"
                   border-radius="20px"
                   background-color="#27C5B8"
-                  width="85%"
+                  width="60%"
                >
                   Choose a time for your Automatic Updates
                </mj-button>
