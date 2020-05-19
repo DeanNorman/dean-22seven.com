@@ -1,7 +1,9 @@
 <mj-section padding="0px">
    <mj-column>
-      <mj-text align="left">
-      If you have any questions, please feel free to <a href="mailto:thesvens@22seven.com" style="color: #27c5b8;">email us</a>.
+      <mj-text align="left"
+      line-height="20px">
+      If you have any questions, please feel free to <a href="mailto:thesvens@22seven.com" style="color: #27c5b8;">email us</a>
+      or send a Whatsapp<br/> message to <a href="https://wa.me/27763479570" style="color: #27c5b8;">0763479570</a>.
       </mj-text>
        <mj-text align="left">
          All the best
