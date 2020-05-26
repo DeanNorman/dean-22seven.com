@@ -1,0 +1,95 @@
+<mjml>
+   <mj-include path="../../template_components/_globals.mjml" /> <!-- globals -->
+   <mj-body background-color="#F1F5FB">
+   <mj-include path="../../template_components/header/headerLogo.mjml" /> <!-- Header Logo Include -->
+      
+   <mj-wrapper padding="0 15px">
+      <mj-section 
+         background-color="#6A678B"
+         border-radius="15px">
+            <mj-column width="65%">
+               <mj-image
+                  src="./img/header-text.png"
+                  alt="22seven Tip - Put your transactioing in their place."
+                  align="center"/>
+            </mj-column>
+            <mj-column width="35%">
+               <mj-image
+                  align="right"
+                  src="./img/phone-icon.png"
+                  alt="Sorting Box"
+                  padding="0px 40px"
+                  width="80px"
+                  />
+            </mj-column>
+         </mj-section> <!-- Plain Section -->
+      </mj-wrapper>
+
+      <mj-section /> <!-- Spacer -->
+
+      <mj-wrapper padding="5px 15px">
+         <mj-section  mj-class="section">
+            <mj-column width="100%" padding="0px 0px 10px">
+               <mj-text mj-class="title">
+                  A budget made for you, or by you.
+               </mj-text>
+            </mj-column>
+
+            <mj-column width="100%">
+               <mj-image
+               align="center"
+                  src="./img/platforms.png"
+                  alt="Feature available on all platforms"
+                 />
+
+               <mj-text mj-class="sectionText--normal">
+                  22seven creates a personalised budget for you, automatically, based on your own actual behaviour. It calculates your average spending on each category over the last few months, and shows you how you’re doing against that so far this month.
+                  <br/><br/>
+
+
+
+                  You can also create your own budget. Instead of tracking your spending against your average, you can set your own target amount for any category. (Here’s how to do it on       <a href="https://conversations.22seven.com/hc/en-us/articles/200651226-How-to-categorise-transactions/?utm_source=*%7CMAIL_NAME%7C*&utm_medium=email&utm_campaign=InService" style="color: #27c5b8;">web</a>, <a href="https://conversations.22seven.com/hc/en-us/articles/201740377-How-to-categorise-transactions-on-Android/?utm_source=*%7CMAIL_NAME%7C*&utm_medium=email&utm_campaign=InService" style="color: #27c5b8;">Android</a> or <a href="https://conversations.22seven.com/hc/en-us/articles/202650303-How-to-change-a-transaction-category-on-iOS-/?utm_source=*%7CMAIL_NAME%7C*&utm_medium=email&utm_campaign=InService" style="color: #27c5b8;">iPhone</a>.) 
+
+
+                  <br/><br/>
+               </mj-text>
+               <mj-button
+                  href="#"
+                  border-radius="20px"
+                  background-color="#27C5B8"
+                  width="55%"
+               >
+                  See your uncategorised transactions
+               </mj-button>
+            </mj-column> <!-- Get Debt Free -->
+      </mj-wrapper>
+
+      <mj-section /> <!-- spacer -->
+
+      <mj-wrapper padding="0 15px">
+         <mj-section mj-class="section" padding="15px 0px" >
+            <mj-column width="70%">
+               <mj-text mj-class="title"
+                  padding-top="15px">
+                  Get spending alerts.
+               </mj-text>
+               <mj-text mj-class="sectionText--normal">
+                 You can <a href="https://conversations.22seven.com/hc/en-us/articles/230406928/?utm_source=*%7CMAIL_NAME%7C*&utm_medium=email&utm_campaign=InService" style="color: #27c5b8;">set spending alerts</a>, which will let you know when you’re getting close to spending what you normally do or have budgeted to. (For these to be helpful, the account(s) you use most often should be linked.)
+               </mj-text>
+
+            </mj-column>
+            <mj-column width="30%">
+            <mj-image
+               src="./img/bell-icon.png"
+               alt="Get Debt Free Icon"
+               padding-right="30px"
+               width="120px"/>
+            </mj-column>
+         </mj-section> <!-- Plain Section -->
+      </mj-wrapper>
+
+      <mj-section /> <!-- spacer -->
+      
+      <mj-include path="../../template_components/footer/footer.mjml" /> <!-- Footer Include -->
+   </mj-body>
+</mjml>
