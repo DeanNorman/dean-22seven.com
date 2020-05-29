@@ -57,9 +57,8 @@
                   href="#"
                   border-radius="20px"
                   background-color="#27C5B8"
-                  width="55%"
                >
-                  See your uncategorised transactions
+                  See your budget
                </mj-button>
             </mj-column> <!-- Get Debt Free -->
       </mj-wrapper>
