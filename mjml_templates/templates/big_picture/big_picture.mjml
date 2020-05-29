@@ -42,27 +42,40 @@
                <mj-text mj-class="title">
                   Net value
                </mj-text>
-               <mj-image
-                  align="center"
-                  src="./img/platforms-net-value.png"
-                  alt="Feature available on all platforms"
-                 />
+            </mj-column>
 
+            <mj-column width="33%">
+               <mj-image src="./img/platform-web.png" alt="web" />
+            </mj-column>
+            <mj-column width="33%">
+               <mj-image src="./img/platform-android.png" alt="web" />
+            </mj-column>
+            <mj-column width="33%">
+               <mj-image src="./img/platform-ios.png" alt="web" />
+            </mj-column>
+            <mj-column width="100%">
                <mj-text mj-class="sectionText--normal">
                   This is what all your money stuff is worth in total – everything you have, minus everything you owe. It’s calculated from all the accounts you have linked to 22seven (so the more you add, the more accurate your picture).
                   <br/><br/>
                </mj-text>
-
                <mj-text mj-class="title">
                   How your money has changed
                </mj-text>
-               <mj-image
-                  align="center"
-                  src="./img/platforms-money-change.png"
-                  alt="Feature available on all platforms"
-                 />
+            </mj-column>
 
-               <mj-text mj-class="sectionText--normal">
+            <mj-column width="33%">
+               <mj-image src="./img/platform-web-2.png" alt="web" />
+            </mj-column>
+
+            <mj-column width="33%">
+               <mj-image src="./img/platform-android-2.png" alt="web" />
+            </mj-column>
+
+            <mj-column width="33%">
+               <mj-image src="./img/platform-ios-2.png" alt="web" />
+            </mj-column>
+            <mj-column width="100%">
+                              <mj-text mj-class="sectionText--normal">
                   Click on any account and you’ll be able to see how its balance has grown (or shrunk) over time. This is really insightful when you’re tracking investments or debts. 
                   <br/><br/>
                </mj-text>
