@@ -37,7 +37,7 @@
             <mj-column width="33%">
                <mj-image src="./img/platform-web.png" alt="web" />
             </mj-column>
-                        <mj-column width="33%">
+            <mj-column width="33%">
                <mj-image src="./img/platform-android.png" alt="web" />
             </mj-column>
             <mj-column width="33%">

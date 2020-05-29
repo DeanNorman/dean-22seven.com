@@ -34,14 +34,16 @@
                   A budget made for you, or by you.
                </mj-text>
             </mj-column>
-
+               <mj-column width="33%">
+               <mj-image src="./img/platform-web.png" alt="web" />
+            </mj-column>
+            <mj-column width="33%">
+               <mj-image src="./img/platform-android.png" alt="web" />
+            </mj-column>
+            <mj-column width="33%">
+               <mj-image src="./img/platform-ios.png" alt="web" />
+            </mj-column>
             <mj-column width="100%">
-               <mj-image
-               align="center"
-                  src="./img/platforms.png"
-                  alt="Feature available on all platforms"
-                 />
-
                <mj-text mj-class="sectionText--normal">
                   22seven creates a personalised budget for you, automatically, based on your own actual behaviour. It calculates your average spending on each category over the last few months, and shows you how you’re doing against that so far this month.
                   <br/><br/>
