@@ -15,10 +15,10 @@
             </mj-column>
             <mj-column width="35%">
                <mj-image
-                  align="right"
+                  align="center"
                   src="./img/icon-goggles.png"
                   alt="Sorting Box"
-                  padding="20px 40px 0px 0px"
+                  padding="20px 0px 0px 0px"
                   width="100px"
                   />
             </mj-column>
@@ -111,7 +111,7 @@
                align="center"
                   src="./img/icon-email.png"
                   alt="Get Debt Free Icon"
-                  width="100px"/>
+                  width="130px"/>
                <mj-text mj-class="title--column">
                   <a href="mailto:thesvens@22seven.com" style="color:#27cbb5;">Email</a>
                </mj-text>

@@ -15,7 +15,7 @@
             </mj-column>
             <mj-column width="35%">
                <mj-image
-                  align="right"
+                  align="center"
                   src="./img/phone-icon.png"
                   alt="Sorting Box"
                   padding="0px 40px"

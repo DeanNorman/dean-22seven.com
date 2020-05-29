@@ -15,10 +15,10 @@
             </mj-column>
             <mj-column width="35%">
                <mj-image
-                  align="right"
+                  align="center"
                   src="./img/icon-lightbulb.png"
                   alt="Sorting Box"
-                  padding="25px 40px 0px 0px"
+                  padding="25px 0px 0px 0px"
                   width="80px"
                   />
             </mj-column>

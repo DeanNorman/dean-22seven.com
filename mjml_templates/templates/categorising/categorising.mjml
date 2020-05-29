@@ -15,7 +15,7 @@
             </mj-column>
             <mj-column width="35%">
                <mj-image
-                  align="right"
+                  align="center"
                   src="./img/box-icon.png"
                   alt="Sorting Box"
                   padding="0px 30px"
@@ -34,14 +34,16 @@
                   How transactions are sorted.
                </mj-text>
             </mj-column>
-
+            <mj-column width="33%">
+               <mj-image src="./img/platform-web.png" alt="web" />
+            </mj-column>
+                        <mj-column width="33%">
+               <mj-image src="./img/platform-android.png" alt="web" />
+            </mj-column>
+            <mj-column width="33%">
+               <mj-image src="./img/platform-ios.png" alt="web" />
+            </mj-column>
             <mj-column width="100%">
-               <mj-image
-               align="center"
-                  src="./img/platforms.png"
-                  alt="Feature available on all platforms"
-                 />
-
                <mj-text mj-class="sectionText--normal">
                   To show you how you spent every rand, 22seven categorises your transactions for you automatically. But some may still be uncategorised, or not in the category you want them. No problem – you can put them where you want. When you do, 22seven learns and gets smarter about where future transactions go. 
                   <br/><br/>
@@ -53,7 +55,7 @@
                   href="#"
                   border-radius="20px"
                   background-color="#27C5B8"
-                  width="55%"
+                  
                >
                   See your uncategorised transactions
                </mj-button>

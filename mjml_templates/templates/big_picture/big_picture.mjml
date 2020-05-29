@@ -15,7 +15,7 @@
             </mj-column>
             <mj-column width="35%">
                <mj-image
-                  align="right"
+                  align="center"
                   src="./img/frame-icon.png"
                   alt="Sorting Box"
                   padding="10px 40px"
@@ -80,7 +80,7 @@
 
       <mj-wrapper padding="0 15px">
          <mj-section mj-class="section" padding="15px 0px" >
-            <mj-column width="70%">
+            <mj-column width="65%">
                <mj-text mj-class="title"
                   padding-top="15px">
                   Manually add things you own or owe.
@@ -90,12 +90,12 @@
                </mj-text>
 
             </mj-column>
-            <mj-column width="30%">
+            <mj-column width="35%">
             <mj-image
                src="./img/icon-accounts.png"
                alt="Get Debt Free Icon"
-               padding-right="30px"
-               width="120px"/>
+               padding-top="0px"
+               />
             </mj-column>
          </mj-section> <!-- Plain Section -->
       </mj-wrapper>
