@@ -18,8 +18,8 @@
                   align="right"
                   src="./img/icon-goggles.png"
                   alt="Sorting Box"
-                  padding="0px 40px"
-                  width="80px"
+                  padding="20px 40px 0px 0px"
+                  width="100px"
                   />
             </mj-column>
          </mj-section> <!-- Plain Section -->
@@ -28,13 +28,17 @@
       <mj-section /> <!-- spacer -->
 
       <mj-wrapper padding="5px 15px">
+      
          <mj-section  mj-class="section">
             <mj-column width="100%" padding="0px 0px 10px">
                <mj-text mj-class="title">
+               
                   How we'll stay in touch with you.
                </mj-text>
                <mj-text padding-top="0px">
-                  22seven shows you:
+                  These are the emails you can expect from us from now on…
+                  <br/>
+                  <br/>
                </mj-text>
             </mj-column>
 
@@ -43,8 +47,10 @@
                align="center"
                   src="./img/icon-slice.png"
                   alt="Get Debt Free Icon"
-                  width="84px"/>
+                  width="100px"
+                  />
                <mj-text mj-class="title--column">
+               
                   Slice
                </mj-text>
                <mj-text mj-class="text--column">
@@ -58,8 +64,10 @@
                <mj-image
                   src="./img/icon-money-month.png"
                   alt="Detect Double Charge Icon"
-                  width="84px"/>
+                  width="100px"
+                  />
                <mj-text mj-class="title--column" >
+               <br/>
                   Money Month 
                </mj-text>
                <mj-text mj-class="text--column">
@@ -72,7 +80,8 @@
                <mj-image
                   src="./img/icon-rocket.png"
                   alt="Save Cash Icon"
-                  width="84px"/>
+                  width="100px"
+                  />
                <mj-text mj-class="title--column">
                   New feature releases 
                </mj-text>
@@ -93,32 +102,33 @@
                </mj-text>
                <mj-text padding-top="0px" line-height="14px">
                   If you have any questions, comments, or just want to share a good joke, there are various ways you can get hold of us…
-
-               </mj-text>
+                  <br/><br/>
+               </mj-text>  
             </mj-column>
 
-            <mj-column width="33%">
+            <mj-column width="35%">
                <mj-image
                align="center"
                   src="./img/icon-email.png"
                   alt="Get Debt Free Icon"
-                  width="84px"/>
+                  width="100px"/>
                <mj-text mj-class="title--column">
-                  <a href="mailto:thesven@22seven.com" style="color:#27cbb5;">Email</a>
+                  <a href="mailto:thesvens@22seven.com" style="color:#27cbb5;">Email</a>
                </mj-text>
                <mj-text mj-class="text--column">
-                  We’re <a href="mailto:thesven@22seven.com" style="color:#27cbb5;">thesvens@22seven.com</a>. And we’re available every day between 8am and 8pm.
+                  We’re <a href="mailto:thesvens@22seven.com" style="color:#27cbb5;">thesvens@22seven.com</a>. And we’re available every day between 8am and 8pm.
                   <br/><br/>
                   
                </mj-text>
             </mj-column> <!-- Get Debt Free -->
 
-               <mj-column width="33%">
+               <mj-column width="35%">
                <mj-image
                   src="./img/icon-help-centre.png"
                   alt="Detect Double Charge Icon"
-                  width="84px"/>
+                  width="100px"/>
                <mj-text mj-class="title--column" >
+<br/>
                   <a href="https://conversations.22seven.com/hc/en-us" style="color:#27cbb5;">Help Center</a>
                </mj-text>
                <mj-text mj-class="text--column">

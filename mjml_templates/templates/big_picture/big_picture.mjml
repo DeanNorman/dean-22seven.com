@@ -18,7 +18,7 @@
                   align="right"
                   src="./img/frame-icon.png"
                   alt="Sorting Box"
-                  padding="0px 40px"
+                  padding="10px 40px"
                   width="80px"
                   />
             </mj-column>
@@ -39,6 +39,9 @@
             </mj-column>
 
             <mj-column width="100%">
+               <mj-text mj-class="title">
+                  Net value
+               </mj-text>
                <mj-image
                   align="center"
                   src="./img/platforms-net-value.png"
@@ -55,7 +58,7 @@
                </mj-text>
                <mj-image
                   align="center"
-                  src="./img/platforms-net-value.png"
+                  src="./img/platforms-money-change.png"
                   alt="Feature available on all platforms"
                  />
 

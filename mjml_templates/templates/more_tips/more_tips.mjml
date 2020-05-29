@@ -18,7 +18,7 @@
                   align="right"
                   src="./img/icon-lightbulb.png"
                   alt="Sorting Box"
-                  padding="0px 40px"
+                  padding="25px 40px 0px 0px"
                   width="80px"
                   />
             </mj-column>
@@ -44,8 +44,8 @@
             <mj-image
                src="./img/icon-invest.png"
                alt="Get Debt Free Icon"
-               padding-right="30px"
-               width="120px"/>
+               align="center"
+               width="180px"/>
             </mj-column>
          </mj-section> <!-- Plain Section -->
       </mj-wrapper>
@@ -54,12 +54,14 @@
 
       <mj-wrapper padding="0 15px">
          <mj-section mj-class="section" padding="15px 0px" >
-                   <mj-column width="30%">
+         <mj-column width="30%">
             <mj-image
                src="./img/icon-budget.png"
                alt="Get Debt Free Icon"
-               padding-right="30px"
-               width="120px"/>
+               width="100px"
+               padding="20px 0px 0px 20px"
+               align="center"
+               />
             </mj-column>
             <mj-column width="70%">
                <mj-text mj-class="title"
@@ -90,8 +92,9 @@
             <mj-image
                src="./img/icon-split.png"
                alt="Get Debt Free Icon"
-               padding-right="30px"
-               width="120px"/>
+               padding-top="20px"
+               align="center"
+               width="95px"/>
             </mj-column>
          </mj-section> <!-- Plain Section -->
       </mj-wrapper>
@@ -102,12 +105,14 @@
 
       <mj-wrapper padding="0 15px">
          <mj-section mj-class="section" padding="15px 0px" >
-                   <mj-column width="30%">
+         <mj-column width="30%">
             <mj-image
                src="./img/icon-categories.png"
                alt="Get Debt Free Icon"
-               padding-right="30px"
-               width="120px"/>
+               width="100px"
+               padding="20px 0px 0px 20px"
+               align="center"
+            />
             </mj-column>
             <mj-column width="70%">
                <mj-text mj-class="title"
@@ -139,8 +144,9 @@
             <mj-image
                src="./img/icon-calender.png"
                alt="Get Debt Free Icon"
-               padding-right="30px"
-               width="120px"/>
+               padding-top="0px"
+               align="center"
+               width="180px"/>
             </mj-column>
          </mj-section> <!-- Plain Section -->
 

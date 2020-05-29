@@ -67,7 +67,7 @@
 
       <mj-wrapper padding="0 15px">
          <mj-section mj-class="section" padding="15px 0px" >
-            <mj-column width="70%">
+            <mj-column width="75%">
                <mj-text mj-class="title"
                   padding-top="15px">
                   Get spending alerts.
@@ -77,11 +77,12 @@
                </mj-text>
 
             </mj-column>
-            <mj-column width="30%">
+            <mj-column width="25%">
             <mj-image
                src="./img/bell-icon.png"
                alt="Get Debt Free Icon"
                padding-right="30px"
+               padding-top="25px"
                width="120px"/>
             </mj-column>
          </mj-section> <!-- Plain Section -->
