@@ -1,0 +1,92 @@
+<mjml>
+   <mj-include path="./_globals.mjml" /> <!-- globals -->
+   <mj-body background-color="#F1F5FB">
+   <mj-include path="./headerLogo.mjml" /> <!-- Header Logo Include -->
+      
+   <mj-wrapper padding="0 15px">
+      <mj-section 
+         background-color="#6A678B"
+         border-radius="15px">
+            <mj-column width="65%">
+               <mj-image
+                  src="./img/header-text.png"
+                  alt="22seven Tip - Put your transactioing in their place."
+                  align="center"/>
+            </mj-column>
+            <mj-column width="35%">
+               <mj-image
+                  align="center"
+                  src="./img/box-icon.png"
+                  alt="Sorting Box"
+                  padding="0px 30px"
+                  width="125px"
+                  />
+            </mj-column>
+         </mj-section> <!-- Plain Section -->
+      </mj-wrapper>
+
+      <mj-section /> <!-- Spacer -->
+
+      <mj-wrapper padding="5px 15px">
+         <mj-section  mj-class="section">
+            <mj-column width="100%" padding="0px 0px 10px">
+               <mj-text mj-class="title">
+                  How transactions are sorted.
+               </mj-text>
+            </mj-column>
+            <mj-column width="33%">
+               <mj-image src="./img/platform-web.png" alt="web" />
+            </mj-column>
+            <mj-column width="33%">
+               <mj-image src="./img/platform-android.png" alt="web" />
+            </mj-column>
+            <mj-column width="33%">
+               <mj-image src="./img/platform-ios.png" alt="web" />
+            </mj-column>
+            <mj-column width="100%">
+               <mj-text mj-class="sectionText--normal">
+                  To show you how you spent every rand, 22seven categorises your transactions for you automatically. But some may still be uncategorised, or not in the category you want them. No problem – you can put them where you want. When you do, 22seven learns and gets smarter about where future transactions go. 
+                  <br/><br/>
+                  Find out how to recategorise on the
+                  <a href="https://conversations.22seven.com/hc/en-us/articles/200651226-How-to-categorise-transactions/?utm_source=*%7CMAIL_NAME%7C*&utm_medium=email&utm_campaign=InService" style="color: #27c5b8;">web</a>, <a href="https://conversations.22seven.com/hc/en-us/articles/201740377-How-to-categorise-transactions-on-Android/?utm_source=*%7CMAIL_NAME%7C*&utm_medium=email&utm_campaign=InService" style="color: #27c5b8;">Android</a> or <a href="https://conversations.22seven.com/hc/en-us/articles/202650303-How-to-change-a-transaction-category-on-iOS-/?utm_source=*%7CMAIL_NAME%7C*&utm_medium=email&utm_campaign=InService" style="color: #27c5b8;">iPhone</a>, and how to do <a href="https://conversations.22seven.com/hc/en-us/articles/200651236-How-to-categorise-more-than-1-transaction-at-a-time-/?utm_source=*%7CMAIL_NAME%7C*&utm_medium=email&utm_campaign=InService" style="color: #27c5b8;">more than one transaction at a time</a>.
+                  <br/><br/>
+               </mj-text>
+               <mj-button
+                  href="#"
+                  border-radius="20px"
+                  background-color="#27C5B8"
+                  
+               >
+                  See your uncategorised transactions
+               </mj-button>
+            </mj-column> <!-- Get Debt Free -->
+      </mj-wrapper>
+
+      <mj-section /> <!-- spacer -->
+
+      <mj-wrapper padding="0 15px">
+         <mj-section mj-class="section" padding="15px 0px" >
+            <mj-column width="72%">
+               <mj-text mj-class="title"
+                  padding-top="15px">
+                  How transfers are treated.
+               </mj-text>
+               <mj-text mj-class="sectionText--normal">
+                  Transferring money between accounts (say, from your cheque account to your credit card) is like taking money out of one pocket and putting it in another. You haven’t actually earned or spent it. So transactions categorised as Transfers are “hidden” and don't affect the totals in your Budget. 
+               </mj-text>
+
+            </mj-column>
+            <mj-column width="28%">
+            <mj-image
+               src="./img/transfer-icon.png"
+               alt="Get Debt Free Icon"
+               width="120px"/>
+            </mj-column>
+         </mj-section> <!-- Plain Section -->
+      </mj-wrapper>
+
+      <mj-section /> <!-- spacer -->
+      
+      <mj-include path="./footer.mjml" /> <!-- Footer Include -->
+   </mj-body>
+</mjml>

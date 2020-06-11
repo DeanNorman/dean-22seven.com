@@ -1,0 +1,120 @@
+<mjml>
+   <mj-include path="./_globals.mjml" /> <!-- globals -->
+   <mj-body background-color="#F1F5FB">
+   <mj-include path="./headerLogo.mjml" /> <!-- Header Logo Include -->
+      
+   <mj-wrapper padding="0 15px">
+      <mj-section 
+         background-color="#6A678B"
+         border-radius="15px">
+            <mj-column width="65%">
+               <mj-image
+                  src="./img/header-text.png"
+                  alt="22seven Tip - Put your transactioing in their place."
+                  align="center"/>
+            </mj-column>
+            <mj-column width="35%">
+               <mj-image
+                  align="center"
+                  src="./img/frame-icon.png"
+                  alt="Sorting Box"
+                  padding="10px 40px"
+                  width="80px"
+                  />
+            </mj-column>
+         </mj-section> <!-- Plain Section -->
+      </mj-wrapper>
+
+      <mj-section /> <!-- Spacer -->
+
+      <mj-wrapper padding="5px 15px">
+         <mj-section  mj-class="section">
+            <mj-column width="100%" padding="0px 0px 10px">
+               <mj-text mj-class="title">
+                  See things you might not otherwise see.
+               </mj-text>
+               <mj-text padding-top="0px">
+                  22seven shows you:
+               </mj-text>
+            </mj-column>
+
+            <mj-column width="100%">
+               <mj-text mj-class="title">
+                  Net value
+               </mj-text>
+            </mj-column>
+
+            <mj-column width="33%">
+               <mj-image src="./img/platform-web.png" alt="web" />
+            </mj-column>
+            <mj-column width="33%">
+               <mj-image src="./img/platform-android.png" alt="web" />
+            </mj-column>
+            <mj-column width="33%">
+               <mj-image src="./img/platform-ios.png" alt="web" />
+            </mj-column>
+            <mj-column width="100%">
+               <mj-text mj-class="sectionText--normal">
+                  This is what all your money stuff is worth in total – everything you have, minus everything you owe. It’s calculated from all the accounts you have linked to 22seven (so the more you add, the more accurate your picture).
+                  <br/><br/>
+               </mj-text>
+               <mj-text mj-class="title">
+                  How your money has changed
+               </mj-text>
+            </mj-column>
+
+            <mj-column width="33%">
+               <mj-image src="./img/platform-web-2.png" alt="web" />
+            </mj-column>
+
+            <mj-column width="33%">
+               <mj-image src="./img/platform-android-2.png" alt="web" />
+            </mj-column>
+
+            <mj-column width="33%">
+               <mj-image src="./img/platform-ios-2.png" alt="web" />
+            </mj-column>
+            <mj-column width="100%">
+                              <mj-text mj-class="sectionText--normal">
+                  Click on any account and you’ll be able to see how its balance has grown (or shrunk) over time. This is really insightful when you’re tracking investments or debts. 
+                  <br/><br/>
+               </mj-text>
+               <mj-button
+                  href="#"
+                  border-radius="20px"   
+                  background-color="#27C5B8"
+               >
+                  See your net value
+               </mj-button>
+            </mj-column> <!-- Get Debt Free -->
+      </mj-wrapper>
+
+      <mj-section /> <!-- spacer -->
+
+      <mj-wrapper padding="0 15px">
+         <mj-section mj-class="section" padding="15px 0px" >
+            <mj-column width="65%">
+               <mj-text mj-class="title"
+                  padding-top="15px">
+                  Manually add things you own or owe.
+               </mj-text>
+               <mj-text mj-class="sectionText--normal">
+                 Some of your money stuff may not be online or with service providers – like the value of your property, or money you borrowed from your dad. To get the fullest, most accurate picture of your money, you can <a href="https://conversations.22seven.com/hc/en-us/articles/203774483-How-to-manually-link-something-you-have-or-owe-" style="color: #27c5b8;">add these to 22seven manually</a>. 
+               </mj-text>
+
+            </mj-column>
+            <mj-column width="35%">
+            <mj-image
+               src="./img/icon-accounts.png"
+               alt="Get Debt Free Icon"
+               padding-top="0px"
+               />
+            </mj-column>
+         </mj-section> <!-- Plain Section -->
+      </mj-wrapper>
+
+      <mj-section /> <!-- spacer -->
+      
+      <mj-include path="./footer.mjml" /> <!-- Footer Include -->
+   </mj-body>
+</mjml>

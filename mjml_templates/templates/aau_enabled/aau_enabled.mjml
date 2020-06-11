@@ -18,7 +18,7 @@
             </mj-column>
             <mj-column width="35%">
                <mj-image
-                  align="right"
+                  align="center"
                   src="./img/man.png"
                   alt="Welcome to 22seven"
                   padding="10px 30px 0px 0px"
@@ -71,10 +71,10 @@
                   <br/><br/>
                </mj-text>
                <mj-button
-                  href="*|BASE_URL|*app/settings/auto-account-update?utm_source=*|MAIL_NAME|*&amp;utm_medium=email&amp;utm_campaign=InService"
+                  href="https://www.22seven.com/app/accounts/auto-account-update?utm_source=*|MAIL_NAME|*&amp;utm_medium=email&amp;utm_campaign=InService"
                   border-radius="20px"
                   background-color="#27C5B8"
-                  width="60%"
+                  
                >
                   Choose a time for your Automatic Updates
                </mj-button>

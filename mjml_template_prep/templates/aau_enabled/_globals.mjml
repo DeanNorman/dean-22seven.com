@@ -1,0 +1,58 @@
+<!-- Global styling -->
+<!-- https://mjml.io/documentation/#standard-head-components -->
+<mj-head>
+   <mj-attributes>
+      <mj-text color="#4E4C6A" />
+
+      <mj-class 
+         name="title" 
+         align="left"
+         font-size="16px"
+         font-weight="600"
+         letter-spacing="0.2px" />
+      
+      <mj-class
+         name="title--column"
+         align="center"
+         font-size="16px"
+         font-weight="600"
+         letter-spacing="0.2px" />
+
+      <mj-class
+         name="text--column"
+         align="center"
+         font-size="12px"
+         font-weight="300"
+         letter-spacing="0.2px"
+         line-height="14px"
+      />
+
+      <mj-class
+         name="text--column--sm"
+         align="center"
+         font-size="11px"
+         font-weight="300"
+         letter-spacing="0.2px"
+         line-height="14px"
+      />
+
+      <mj-class
+         name="sectionText--normal"
+         align="left"
+         font-size="13px"
+         font-weight="300"
+         letter-spacing="0.2px"
+         line-height="16px" />
+
+      <mj-class name="sectionText--sm" color="#fff" />
+      <mj-class name="sectionText--xs" color="#fff" />
+
+      <mj-class
+         name="section"
+         background-color="#fff"
+         border-radius="15px" />
+
+      <mj-all font-family="Helvetica" />
+
+   </mj-attributes>
+</mj-head>
