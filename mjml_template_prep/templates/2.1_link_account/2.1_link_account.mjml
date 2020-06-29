@@ -20,7 +20,7 @@
             </mj-column>
             <mj-column width="30%">
                <mj-image
-                  align="right"
+                  align="center"
                   src="https://22seven-mailer.s3.amazonaws.com/images/2.1/icon-header.png"
                   alt="Welcome to 22seven"
              />
