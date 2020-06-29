@@ -1,0 +1,141 @@
+<mjml>
+   <mj-include path="./_globals.mjml" /> <!-- globals -->
+   <mj-body background-color="#F1F5FB">
+   <mj-include path="./headerLogo.mjml" /> <!-- Header Logo Include -->
+      
+   <mj-wrapper padding="0 15px">
+      <mj-section 
+         background-color="#6A678B"
+         border-radius="15px"
+         padding="14px 0px">
+            <mj-column width="70%">
+               <mj-image
+                  src="https://22seven-mailer.s3.amazonaws.com/images/2.1/header-text2.png"
+                  alt="Welcome to 22seven"
+                  padding-top="55px"
+                  align="center"
+                  />
+                  <mj-text>
+                  
+            </mj-column>
+            <mj-column width="30%">
+               <mj-image
+                  align="right"
+                  src="https://22seven-mailer.s3.amazonaws.com/images/2.1/icon-header.png"
+                  alt="Welcome to 22seven"
+             />
+            </mj-column>
+         </mj-section> <!-- Plain Section -->
+      </mj-wrapper>
+
+      <mj-section /> <!-- Spacer -->
+
+      <mj-wrapper padding="0 15px">
+         <mj-section mj-class="section" padding="15px 0px" >
+            <mj-column>
+               <mj-text mj-class="title">
+                     Hi < name>
+               </mj-text>
+               <mj-text mj-class="sectionText--normal">
+                  It’s Phumza here from 22seven’s support team. Our machine that goes “ping” has alerted us to the fact that you haven’t linked an account to 22seven yet. Until you do, our app can’t do much for you (but when you do, it can do so much for you). 
+                  <br><br>
+                  If security concerns are holding you back, it might help you to know that over 240 000 South Africans have linked more than 1 million accounts over the last 8 years. Here’s why they’ve been comfortable doing it…  
+               </mj-text>
+
+         </mj-section> <!-- Plain Section -->
+      </mj-wrapper>
+
+      <mj-section /> <!-- spacer -->
+
+      <mj-wrapper padding="5px 15px">
+         <mj-section  mj-class="section">
+            <mj-column width="30%" padding="0px 0px 10px">
+                  <mj-image src="https://22seven-mailer.s3.amazonaws.com/images/2.1/icon-budget.png" alt="" />
+            </mj-column>
+            <mj-column width="100%" padding="0px 0px 10px">
+               <mj-text mj-class="title" align="center">
+                  We use military-grade security.
+               </mj-text>
+            </mj-column>
+
+            <mj-column width="50%">
+               <mj-text mj-class="sectionText--normal">
+               <ul>
+                  <li>Certified <strong>256-bit encryption</strong> keeps your information safe.</li><br>
+                  <li>22seven is read-only, which means we can only fetch your information. No one can touch your money.</li><br>
+                  <li>We’re insured. If your information is compromised – which we never expect to happen – we’re covered and will refund you.</li>
+               </ul>   
+
+
+               </mj-text>
+            </mj-column> <!-- Get Debt Free -->
+            <mj-column width="50%">
+            
+               <mj-text mj-class="sectionText--normal">
+               <ul>
+                  <li>
+                  
+                              <mj-image
+               
+               src="https://22seven-mailer.s3.amazonaws.com/images/2.1/phumz-test.png"
+               alt="Get Debt Free Icon"/>
+                Our security procedures and measures are regularly reviewed and audited by industry experts.</li><br>
+                  <li><strong>We’re backed by Old Mutual</strong>, one of the biggest, oldest and most trusted financial institutions in South Africa.</li><br>
+                  <li>As our Privacy Policy indicates, your information is private, and we won’t sell it to third parties.</li>
+               </ul>  
+               </mj-text>
+            </mj-column> <!-- Get Debt Free -->
+
+
+          
+      </mj-wrapper>
+
+      <mj-section /> <!-- spacer -->
+
+<!-- steps -->
+
+   <mj-wrapper padding="5px 15px">
+      <mj-section  mj-class="section">    
+         <mj-column width="100%" padding="0px 0px 10px">
+            <mj-text mj-class="title" align="center">
+               Come on in, the water’s fine…
+            </mj-text>
+            <mj-text mj-class="title" align="center" font-size="14px">
+               To link an account: 
+            </mj-text>
+         </mj-column>
+         <mj-column width="100%" padding="0px" >
+            <mj-image
+               width="400px"
+               src="https://22seven-mailer.s3.amazonaws.com/images/2.1/steps.png"
+               href="https://www.22seven.com/app/login"
+               alt="Get Debt Free Icon"
+               align="center"/>
+         </mj-column>
+         <mj-column width="100%">
+         <mj-button
+            href="https://www.22seven.com/app/add-account/linked"
+            border-radius="20px"   
+            background-color="#27C5B8"
+               >
+                  Link an account now
+               </mj-button>   
+               
+         </mj-column>
+
+         <mj-column width="45%" padding-top="20px">
+            <mj-image src="https://22seven-mailer.s3.amazonaws.com/images/2.1/icon-android.png" alt="" />
+         </mj-column>
+                  <mj-column width="45%" padding-top="20px">
+            <mj-image src="https://22seven-mailer.s3.amazonaws.com/images/2.1/icon-ios.png" alt="" />
+         </mj-column>
+                  <mj-column width="90%">
+            <mj-image src="https://22seven-mailer.s3.amazonaws.com/images/2.1/icon-web.png" alt="" />
+         </mj-column>
+
+      </mj-wrapper>
+
+      
+      <mj-include path="./footer.mjml" /> <!-- Footer Include -->
+   </mj-body>
+</mjml>
