@@ -1,0 +1,90 @@
+<mjml>
+   <mj-include path="./_globals.mjml" /> <!-- globals -->
+   <mj-body background-color="#F1F5FB">
+   <mj-include path="./headerLogo.mjml" /> <!-- Header Logo Include -->
+      
+   <mj-wrapper padding="0 15px">
+      <mj-section 
+         background-color="#6A678B"
+         border-radius="15px"
+         padding="0px">
+            <mj-column width="65%">
+               <mj-image
+                  src="./img/header-text.png"
+                  alt="Welcome to 22seven"
+                  padding-top="45px"
+                  width="330px"
+                  align="center"/>
+            </mj-column>
+            <mj-column width="35%">
+               <mj-image
+                  align="right"
+                  src="./img/man.png"
+                  alt="Welcome to 22seven"
+                  padding="10px 30px 0px 0px"
+                  width="100px"/>
+            </mj-column>
+         </mj-section> <!-- Plain Section -->
+      </mj-wrapper>
+
+      <mj-section /> <!-- Spacer -->
+
+      <mj-wrapper padding="0 15px">
+         <mj-section mj-class="section" padding="15px 0px" >
+            <mj-column>
+               <mj-text mj-class="title">
+                     Try to check in once a week.
+               </mj-text>
+               <mj-text mj-class="sectionText--normal">
+                  We know that the more people engage with their money, the better they are with it. Some people check in on 22seven every day. But even weekly is probably going to have some very positive consequences. At the very least, we suggest you check in once a month. 
+               </mj-text>
+               <mj-image
+                  align="center"
+                  src="./img/week.png"
+                  alt="Get Debt Free Icon"
+                  width="385px"/>
+            </mj-column>
+         </mj-section> <!-- Plain Section -->
+      </mj-wrapper>
+
+      <mj-section /> <!-- spacer -->
+
+      <mj-wrapper padding="5px 15px">
+         <mj-section  mj-class="section">
+            <mj-column width="100%" padding="0px 0px 10px">
+               <mj-text mj-class="title">
+                  Keep Automatic Account Updates on.
+               </mj-text>
+            </mj-column>
+
+            <mj-column width="100%">
+               <mj-image
+               align="center"
+                  src="./img/platforms.png"
+                  alt="Get Debt Free Icon"
+                 />
+
+               <mj-text mj-class="sectionText--normal">
+                 This way, you know that your linked accounts are updated for you, every day, without you having to do anything. And that means you’ll never lose any transactions. (Some account updates only go back 30 days, so if you leave a month between log-ins, you risk losing older transactions.)
+                  <br/><br/>
+                  Remember, you can choose what time you want the updates to happen. 
+                  <br/><br/>
+               </mj-text>
+               <mj-button
+                  href="*|BASE_URL|*app/settings/auto-account-update?utm_source=*|MAIL_NAME|*&amp;utm_medium=email&amp;utm_campaign=InService"
+                  border-radius="20px"
+                  background-color="#27C5B8"
+                  width="60%"
+               >
+                  Choose a time for your Automatic Updates
+               </mj-button>
+            </mj-column> <!-- Get Debt Free -->
+
+          
+      </mj-wrapper>
+
+      <mj-section /> <!-- spacer -->
+      
+      <mj-include path="./footer.mjml" /> <!-- Footer Include -->
+   </mj-body>
+</mjml>

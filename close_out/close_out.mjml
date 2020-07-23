@@ -1,0 +1,135 @@
+<mjml>
+   <mj-include path="./_globals.mjml" /> <!-- globals -->
+   <mj-body background-color="#F1F5FB">
+   <mj-include path="./headerLogo.mjml" /> <!-- Header Logo Include -->
+      
+   <mj-wrapper padding="0 15px">
+      <mj-section 
+         background-color="#6A678B"
+         border-radius="15px">
+            <mj-column width="65%">
+               <mj-image
+                  src="./img/header-text.png"
+                  alt="22seven Tip - Put your transactioing in their place."
+                  align="center"/>
+            </mj-column>
+            <mj-column width="35%">
+               <mj-image
+                  align="center"
+                  src="./img/icon-goggles.png"
+                  alt="Sorting Box"
+                  padding="20px 0px 0px 0px"
+                  width="100px"
+                  />
+            </mj-column>
+         </mj-section> <!-- Plain Section -->
+      </mj-wrapper>
+
+      <mj-section /> <!-- spacer -->
+
+      <mj-wrapper padding="5px 15px">
+      
+         <mj-section  mj-class="section">
+            <mj-column width="100%" padding="0px 0px 10px">
+               <mj-text mj-class="title">
+                  How we'll stay in touch with you.
+               </mj-text>
+               <mj-text padding-top="0px">
+                  These are the emails you can expect from us from now on…
+                  <br/>
+                  <br/>
+               </mj-text>
+            </mj-column>
+
+            <mj-column width="33%">
+               <mj-image
+               align="center"
+                  src="./img/slice.png"
+                  alt="Get Debt Free Icon"
+                  
+                  />
+          
+               <mj-text mj-class="text--column">
+                  A short read of weird and wonderful, random but relevant money-related stuff. We send this every Tuesday.
+                  <br/><br/>
+                  
+               </mj-text>
+            </mj-column> <!-- Get Debt Free -->
+
+               <mj-column width="33%">
+               <mj-image
+                  src="./img/money-month.png"
+                  alt="Detect Double Charge Icon"
+                 
+                  />
+     
+               <mj-text mj-class="text--column">
+                  A personalised link to highlights, insights and summaries of your money over the last month. We send this, well, monthly.
+                  <br/><br/>
+               </mj-text>
+            </mj-column> <!-- Detect Double Charge -->
+
+            <mj-column width="33%">
+               <mj-image
+                  src="./img/new-features.png"
+                  alt="Save Cash Icon"
+               
+                  />
+     
+               <mj-text mj-class="text--column">
+                  We’ll send these whenever there’s something new for you to check out on 22seven.
+                  <br/><br/>
+               </mj-text>
+            </mj-column> <!-- Detect Double Charge -->
+      </mj-wrapper>
+
+      <mj-section /> <!-- spacer -->
+
+      <mj-wrapper padding="5px 15px">
+         <mj-section  mj-class="section">
+            <mj-column width="100%" padding="0px 0px 10px">
+               <mj-text mj-class="title">
+                  How you can get in touch with us.
+               </mj-text>
+               <mj-text padding-top="0px" line-height="14px">
+                  If you have any questions, comments, or just want to share a good joke, there are various ways you can get hold of us…
+                  <br/><br/>
+               </mj-text>  
+            </mj-column>
+
+            <mj-column width="35%">
+            
+               <mj-image
+               href="mailto:thesvens@22seven.com"
+               align="center"
+                  src="./img/email.png"
+                  alt="Get Debt Free Icon"
+                  />
+              
+               <mj-text mj-class="text--column">
+                  We’re <a href="mailto:thesvens@22seven.com" style="color:#27cbb5;">thesvens@22seven.com</a>. And we’re available every day between 8am and 8pm.
+                  <br/><br/>
+                  
+               </mj-text>
+            </mj-column> <!-- Get Debt Free -->
+
+               <mj-column width="35%">
+               <mj-image
+                  href="https://conversations.22seven.com/hc/en-us"
+                  src="./img/help.png"
+                  alt="Detect Double Charge Icon"
+                  />
+
+               <mj-text mj-class="text--column">
+                  Tons of articles and FAQs. Comments, discussions and ideas from other 22seven customers. News and service updates.
+                  <br/><br/>
+               </mj-text>
+            </mj-column> <!-- Detect Double Charge -->
+      </mj-wrapper>
+
+
+      <mj-section /> <!-- spacer -->
+         
+      <mj-include path="./footer.mjml" /> <!-- Footer Include -->
+   </mj-body>
+</mjml>

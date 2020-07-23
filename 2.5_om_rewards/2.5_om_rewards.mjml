@@ -1,0 +1,151 @@
+<mjml>
+   <mj-include path="../template_components/_globals.mjml" /> <!-- globals -->
+   <mj-body background-color="#F1F5FB">
+   <mj-include path="../template_components/headerLogo.mjml" /> <!-- Header Logo Include -->
+      
+   <mj-wrapper padding="0 15px">
+      <mj-section 
+         background-color="#6A678B"
+         border-radius="15px"
+         padding="14px 0px">
+            <mj-column width="72%">
+               <mj-image
+                  src="https://22seven-mailer.s3.amazonaws.com/images/2.5/header-text.png"
+                  alt="Welcome to 22seven"
+                  padding-top="55px"
+                  align="center"
+                  />
+                  <mj-text>
+                  
+            </mj-column>
+            <mj-column width="28%">
+               <mj-image
+                  align="center"
+                  src="https://22seven-mailer.s3.amazonaws.com/images/2.5/header-icon.png"
+                  alt="Welcome to 22seven"
+             />
+            </mj-column>
+         </mj-section> <!-- Plain Section -->
+      </mj-wrapper>
+
+      <mj-section /> <!-- Spacer -->
+
+      <mj-wrapper padding="0 15px">
+         <mj-section mj-class="section" padding="15px 0px" >
+            <mj-column width="72%">
+               <mj-text mj-class="title"
+                  padding-top="15px">
+                  How you can earn rewards. 
+               </mj-text>
+               <mj-text mj-class="sectionText--normal">
+                  Old Mutual Rewards is a free rewards programme. It’s open to anyone – even if you aren’t an Old Mutual customer!<br/><br/>
+
+                  You can earn rewards points just by using 22seven – for example, linking accounts, checking your budget regularly, and saving for a goal. (You can earn rewards points outside of 22seven as well.)
+               </mj-text>
+            </mj-column>
+            <mj-column width="28%">
+            <mj-image
+               padding-top="35px"
+               src="https://22seven-mailer.s3.amazonaws.com/images/2.5/icon-cash.png"
+               alt="Get Debt Free Icon"
+               align="center"
+               width="180px"/>
+            </mj-column>
+         </mj-section> <!-- Plain Section -->
+      </mj-wrapper>
+
+      <mj-section /> <!-- spacer -->
+
+      <mj-wrapper padding="0 15px">
+         <mj-section mj-class="section" padding="15px 0px" >
+            <mj-column width="28%">
+            <mj-image
+               padding="0px 0px 0px 25px"
+               src="https://22seven-mailer.s3.amazonaws.com/images/2.5/icon-rewards.png"
+               alt="Get Debt Free Icon"
+               align="center"
+               width="180px"/>
+            </mj-column>
+            <mj-column width="72%">
+               <mj-text mj-class="title"
+                  padding-top="15px">
+                  How you can use your rewards.
+               </mj-text>
+               <mj-text mj-class="sectionText--normal">
+                  Spend your points at retailers like KFC, DisChem, Sportsman’s Warehouse and more. Use them to buy airtime and data. Or to donate to charities. Or invest your points in Old Mutual products.
+               </mj-text>
+            </mj-column>
+         </mj-section> <!-- Plain Section -->
+      </mj-wrapper>
+
+      <mj-section /> <!-- spacer -->
+
+
+      <!-- steps -->
+
+   <mj-wrapper padding="5px 15px">
+      <mj-section  mj-class="section">    
+         <mj-column width="100%" padding="0px 0px 10px">
+            <mj-text mj-class="title" align="left">
+               Start earning rewards
+            </mj-text>
+               <mj-text align="left" font-size="14px" padding-top="15px">
+               First, <a href="https://conversations.22seven.com/hc/en-us/articles/360035940254-What-s-Old-Mutual-Rewards-" style="color:#27c5b8;">sign up for Old Mutual Rewards</a>.
+            </mj-text>
+
+         </mj-column>
+         <mj-column width="100%" padding="0px" >
+            <mj-image
+               width="400px"
+               src="https://22seven-mailer.s3.amazonaws.com/images/2.5/steps-rewards.png"
+               href="https://www.22seven.com/app/login"
+               alt="Get Debt Free Icon"
+               align="left"/>
+         </mj-column>
+         <mj-column width="40%">
+            <mj-image src="http://22seven-mailer.s3.amazonaws.com/images/2.5/icon-android.png" alt="" />
+               
+         </mj-column>
+                  <mj-column width="40%">
+            <mj-image src="http://22seven-mailer.s3.amazonaws.com/images/2.5/icon-ios.png" alt="" />
+               
+         </mj-column>
+      </mj-section>
+   </mj-wrapper>
+
+   <mj-section /> <!-- spacer -->
+
+<!-- steps -->
+
+   <mj-wrapper padding="5px 15px">
+      <mj-section  mj-class="section">    
+         <mj-column width="100%" padding="0px 0px 10px">
+            <mj-text mj-class="title" align="center">
+              Then, link an account to 22seven.
+            </mj-text>
+         </mj-column>
+         <mj-column width="100%" padding="0px" >
+            <mj-image
+               width="400px"
+               src="https://22seven-mailer.s3.amazonaws.com/images/2.5/steps.png"
+               href="https://www.22seven.com/app/login"
+               alt="Get Debt Free Icon"
+               align="center"/>
+         </mj-column>
+         <mj-column width="100%">
+         <mj-button
+            href="https://www.22seven.com/app/add-account/linked"
+            border-radius="20px"   
+            background-color="#27C5B8"
+               >
+                  Link an account now
+               </mj-button>   
+               
+         </mj-column>
+      </mj-section>
+   </mj-wrapper>
+
+      
+      <mj-include path="../template_components/footer.mjml" /> <!-- Footer Include -->
+   </mj-body>
+</mjml>
