@@ -1,0 +1,116 @@
+<mjml>
+   <mj-include path="./_globals.mjml" /> <!-- globals -->
+   <mj-body background-color="#F1F5FB">
+   <mj-include path="./headerLogo.mjml" /> <!-- Header Logo Include -->
+      
+   <mj-wrapper padding="0 15px">
+      <mj-section 
+         background-color="#6A678B"
+         border-radius="15px"
+         padding="14px 0px">
+            <mj-column width="70%">
+               <mj-image
+                  src="https://22seven-mailer.s3.amazonaws.com/images/2.4/heading-text.png"
+                  alt="Welcome to 22seven"
+                  padding-top="55px"
+                  align="center"
+                  />
+                  <mj-text>
+                  
+            </mj-column>
+            <mj-column width="30%">
+               <mj-image
+                  align="center"
+                  src="https://22seven-mailer.s3.amazonaws.com/images/2.4/heading-icon.png"
+                  alt="Welcome to 22seven"
+             />
+            </mj-column>
+         </mj-section> <!-- Plain Section -->
+      </mj-wrapper>
+
+      <mj-section /> <!-- Spacer -->
+
+      <mj-wrapper padding="0 15px">
+         <mj-section mj-class="section" padding="15px 0px" >
+            <mj-column>
+               <mj-text mj-class="title"
+                  padding-top="15px">
+                  Some of our customers are R40 000 better off.
+               </mj-text>
+               <mj-text mj-class="sectionText--normal">
+                  Over 240 000 South Africans use 22seven to boss their money. It’s helped them to get out of debt. To eliminate wasteful spending they weren’t even aware of. To save more. Reach their goals. And become wealthier.
+               </mj-text>
+            </mj-column>
+
+         </mj-section> <!-- Plain Section -->
+      </mj-wrapper>
+
+      <mj-section /> <!-- spacer -->
+
+      <mj-wrapper padding="5px 15px">
+         <mj-section  mj-class="section">
+            <mj-column width="30%" padding="0px 0px 10px">
+                  <mj-image src="https://22seven-mailer.s3.amazonaws.com/images/2.4/icon-testimonial.png" alt="" />
+            </mj-column>
+            <mj-column width="100%">
+               
+            </mj-column>
+
+            <mj-column width="30%" padding="0px 0px 10px">
+                  <mj-image src="https://22seven-mailer.s3.amazonaws.com/images/2.4/testimonial-1.png" alt="" />
+            </mj-column>
+            <mj-column width="30%" padding="0px 0px 10px">
+                  <mj-image src="https://22seven-mailer.s3.amazonaws.com/images/2.4/testimonial-2.png" alt="" />
+            </mj-column>
+            <mj-column width="30%" padding="0px 0px 10px">
+                  <mj-image src="https://22seven-mailer.s3.amazonaws.com/images/2.4/testimonial-3.png" alt="" />
+            </mj-column>
+    
+
+          
+      </mj-wrapper>
+
+      <mj-section /> <!-- spacer -->
+
+<!-- steps -->
+
+   <mj-wrapper padding="5px 15px">
+      <mj-section  mj-class="section">    
+         <mj-column width="100%" padding="0px 0px 10px">
+            <mj-text mj-class="title" align="center">
+              For each one of them, it started with linking an account.
+            </mj-text>
+               <mj-text align="center" font-size="12px" padding="20px 0 0 0">
+               Linking your fist account is often an eye-opener, and can begin a life-changing financial journey.  
+            </mj-text>
+            <mj-text mj-class="title" align="center" font-size="12px">
+              We suggest you start off with the account you use most often:
+            </mj-text>
+         </mj-column>
+         <mj-column width="100%" padding="0px" >
+            <mj-image
+               width="400px"
+               src="https://22seven-mailer.s3.amazonaws.com/images/2.4/steps.png"
+               href="https://www.22seven.com/app/login"
+               alt="Get Debt Free Icon"
+               align="center"/>
+         </mj-column>
+         <mj-column width="100%">
+         <mj-button
+            href="https://www.22seven.com/app/add-account/linked"
+            border-radius="20px"   
+            background-color="#27C5B8"
+               >
+                  Link an account now
+               </mj-button>   
+               
+         </mj-column>
+
+ 
+
+      </mj-wrapper>
+
+      
+      <mj-include path="./footer.mjml" /> <!-- Footer Include -->
+   </mj-body>
+</mjml>
