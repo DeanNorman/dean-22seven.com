@@ -132,9 +132,9 @@
                   <mj-column width="90%">
             <mj-image src="https://22seven-mailer.s3.amazonaws.com/images/2.1/icon-web.png" alt="" />
          </mj-column>
-
       </mj-wrapper>
-
+     
+         
       
       <mj-include path="../template_components/footer.mjml" /> <!-- Footer Include -->
    </mj-body>
