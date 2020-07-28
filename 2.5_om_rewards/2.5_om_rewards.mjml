@@ -104,7 +104,7 @@
          </mj-column>
          <mj-column width="80%" padding="0px" >            
             <mj-text padding="16px 0" font-size="12px">
-            Log into 22seven (on <a href="https://play.google.com/store/apps/details?id=com.twentytwoseven.android"  style="color: #27c5b8;">Android</a> or <a href="https://www.22seven.com/app/login" style="color: #27c5b8;">iOS</a>).
+            Log into 22seven (on <a href="https://play.google.com/store/apps/details?id=com.twentytwoseven.android"  style="color: #27c5b8;">Android</a> or <a href="https://apps.apple.com/us/app/22seven-budget-track-save/id611120440?ls=1" style="color: #27c5b8;">iOS</a>).
             </mj-text>
          </mj-column>
          <mj-column width="20%">
