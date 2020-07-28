@@ -52,12 +52,11 @@
       <mj-section /> <!-- spacer -->
 
 <!-- steps -->
-
-   <mj-wrapper padding="5px 15px">
+      <mj-wrapper padding="5px 15px">
       <mj-section  mj-class="section">    
          <mj-column width="100%" padding="0px 0px 10px">
             <mj-text mj-class="title" align="center">
-              How to use a demo account.
+            How to use a demo account.
             </mj-text>
             <mj-image src="http://22seven-mailer.s3.amazonaws.com/images/2.3/icon-android.png" alt="android" width="200px" />
                <mj-text align="center" font-size="14px" padding="20px 0 0 0">
@@ -67,14 +66,46 @@
                To link an account: 
             </mj-text>
          </mj-column>
-         <mj-column width="100%" padding="0px" >
+         <mj-column width="20%">
             <mj-image
-               width="450px"
-               src="http://22seven-mailer.s3.amazonaws.com/images/2.3/steps.png"
-               href="https://www.22seven.com/app/login"
-               alt="Get Debt Free Icon"
-               align="center"/>
+               width="55px"
+               padding="0px"
+               src="http://22seven-mailer.s3.amazonaws.com/images/2.4/1.png"
+               alt=""
+               align="right" />
          </mj-column>
+         <mj-column width="80%" padding="0px" >            
+            <mj-text padding="11px 0" font-size="12px">
+            Log into 22seven on <a href="https://play.google.com/store/apps/details?id=com.twentytwoseven.android"  style="color: #27c5b8;">Android</a> (we’re still working on the iOS and <br/>Web demo features). 
+            </mj-text>
+         </mj-column>
+         <mj-column width="20%">
+            <mj-image
+               width="55px"
+               padding="0px"
+               src="http://22seven-mailer.s3.amazonaws.com/images/2.4/2.png"
+               alt=""
+               align="right" />
+         </mj-column>
+         <mj-column width="80%" padding="0px" >            
+            <mj-text padding="17px 0" font-size="12px">
+               Go to the “Accounts” screen and hit the (+) button. 
+            </mj-text>
+         </mj-column>
+                  <mj-column width="20%">
+            <mj-image
+               width="55px"
+               padding="0px"
+               src="http://22seven-mailer.s3.amazonaws.com/images/2.4/3.png"
+               alt=""
+               align="right" />
+         </mj-column>
+         <mj-column width="80%" padding="0px" >            
+            <mj-text padding="17px 0" font-size="12px">
+            Click on the 'Add some demo accounts' pop-up message…and away you go.
+            </mj-text>
+         </mj-column>
+
          <mj-column width="100%">
          <mj-button
             href="https://www.22seven.com/app/add-account/linked"
@@ -82,15 +113,13 @@
             background-color="#27C5B8"
                >
                   Link an account now
-               </mj-button>   
-               
+         </mj-button>   
          </mj-column>
+      </mj-section>        
+   </mj-wrapper> 
+   <!-- steps -->
 
- 
 
-      </mj-wrapper>
-
-      
-      <mj-include path="../template_components/footer.mjml" /> <!-- Footer Include -->
+   <mj-include path="../template_components/footer.mjml" /> <!-- Footer Include -->
    </mj-body>
 </mjml>
