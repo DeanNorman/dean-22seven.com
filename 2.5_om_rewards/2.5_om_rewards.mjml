@@ -86,22 +86,54 @@
    <mj-wrapper padding="5px 15px">
       <mj-section  mj-class="section">    
          <mj-column width="100%" padding="0px 0px 10px">
-            <mj-text mj-class="title" align="left">
+            <mj-text mj-class="title" align="center">
                Start earning rewards
             </mj-text>
-               <mj-text align="left" font-size="14px" padding-top="15px">
+               <mj-text align="center" font-size="14px" padding-top="15px">
                First, <a href="https://conversations.22seven.com/hc/en-us/articles/360035940254-What-s-Old-Mutual-Rewards-" style="color:#27c5b8;">sign up for Old Mutual Rewards</a>.
             </mj-text>
 
          </mj-column>
-         <mj-column width="100%" padding="0px" >
+         <mj-column width="20%">
             <mj-image
-               width="400px"
-               src="https://22seven-mailer.s3.amazonaws.com/images/2.5/steps-rewards.png"
-               href="https://www.22seven.com/app/login"
-               alt="Get Debt Free Icon"
-               align="left"/>
+               width="55px"
+               padding="0px"
+               src="http://22seven-mailer.s3.amazonaws.com/images/2.4/1.png"
+               alt=""
+               align="right" />
          </mj-column>
+         <mj-column width="80%" padding="0px" >            
+            <mj-text padding="16px 0" font-size="12px">
+            Log into 22seven (on <a href="https://play.google.com/store/apps/details?id=com.twentytwoseven.android"  style="color: #27c5b8;">Android</a> or <a href="https://www.22seven.com/app/login" style="color: #27c5b8;">iOS</a>).
+            </mj-text>
+         </mj-column>
+         <mj-column width="20%">
+            <mj-image
+               width="55px"
+               padding="0px"
+               src="http://22seven-mailer.s3.amazonaws.com/images/2.4/2.png"
+               alt=""
+               align="right" />
+         </mj-column>
+         <mj-column width="80%" padding="0px" >            
+            <mj-text padding="16px 0" font-size="12px">
+               Go to your Settings, then hit “Profile”.
+            </mj-text>
+         </mj-column>
+         <mj-column width="20%">
+            <mj-image
+               width="55px"
+               padding="0px"
+               src="http://22seven-mailer.s3.amazonaws.com/images/2.4/3.png"
+               alt=""
+               align="right" />
+         </mj-column>
+         <mj-column width="80%" padding="0px" >            
+            <mj-text padding="16px 0" font-size="12px">
+               Scroll down and hit “Earn Old Mutual Rewards”, then follow the prompts.
+            </mj-text>
+         </mj-column>
+
          <mj-column width="40%">
             <mj-image src="http://22seven-mailer.s3.amazonaws.com/images/2.5/icon-android.png" alt="" />
                
@@ -117,21 +149,55 @@
 
 <!-- steps -->
 
-   <mj-wrapper padding="5px 15px">
+      <mj-wrapper padding="5px 15px">
       <mj-section  mj-class="section">    
          <mj-column width="100%" padding="0px 0px 10px">
             <mj-text mj-class="title" align="center">
               Then, link an account to 22seven.
             </mj-text>
          </mj-column>
-         <mj-column width="100%" padding="0px" >
+         <mj-column width="20%">
             <mj-image
-               width="400px"
-               src="https://22seven-mailer.s3.amazonaws.com/images/2.5/steps.png"
-               href="https://www.22seven.com/app/login"
-               alt="Get Debt Free Icon"
-               align="center"/>
+               width="55px"
+               padding="0px"
+               src="http://22seven-mailer.s3.amazonaws.com/images/2.5/1.png"
+               alt=""
+               align="right" />
          </mj-column>
+         <mj-column width="80%" padding="0px" >            
+            <mj-text padding="16px 0" font-size="12px">
+               Go to the “Accounts” screen and hit the (+) button.
+            </mj-text>
+         </mj-column>
+         <mj-column width="20%">
+            <mj-image
+               width="55px"
+               padding="0px"
+               src="http://22seven-mailer.s3.amazonaws.com/images/2.4/2.png"
+               alt=""
+               align="right" />
+         </mj-column>
+         <mj-column width="80%" padding="0px" >            
+            <mj-text padding="11px 0" font-size="12px">
+               Choose the service provider you want to link. (We suggest you<br/> start with the account you use most often.)
+            </mj-text>
+         </mj-column>
+                  <mj-column width="20%">
+            <mj-image
+               width="55px"
+               padding="0px"
+               src="http://22seven-mailer.s3.amazonaws.com/images/2.4/3.png"
+               alt=""
+               align="right" />
+         </mj-column>
+         <mj-column width="80%" padding="0px" >            
+            <mj-text padding="16px 0" font-size="12px">
+            Enter the same login details you’d use on their website.
+            </mj-text>
+         </mj-column>
+
+         
+
          <mj-column width="100%">
          <mj-button
             href="https://www.22seven.com/app/add-account/linked"
@@ -139,11 +205,10 @@
             background-color="#27C5B8"
                >
                   Link an account now
-               </mj-button>   
-               
-         </mj-column>
+         </mj-button> 
+
       </mj-section>
-   </mj-wrapper>
+      </mj-wrapper>
 
       
       <mj-include path="../template_components/footer.mjml" /> <!-- Footer Include -->
