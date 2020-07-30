@@ -112,6 +112,7 @@
                width="55px"
                padding="0px"
                src="http://22seven-mailer.s3.amazonaws.com/images/2.4/2.png"
+               
                alt=""
                align="right" />
          </mj-column>
