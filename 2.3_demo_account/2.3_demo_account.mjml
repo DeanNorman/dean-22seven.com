@@ -8,8 +8,10 @@
          background-color="#6A678B"
          border-radius="15px"
          padding="14px 0px">
-            <mj-column width="70%">
+            <mj-column>
                <mj-image
+                  width="300px"
+                  
                   src="https://22seven-mailer.s3.amazonaws.com/images/2.3/header-text.png"
                   alt="Welcome to 22seven"
                   padding-top="60px"
@@ -18,9 +20,9 @@
                   <mj-text>
                   
             </mj-column>
-            <mj-column width="30%">
+            <mj-column>
                <mj-image
-                  align="center"
+                  width="150px"
                   src="https://22seven-mailer.s3.amazonaws.com/images/2.3/header-icon.png"
                   alt="Welcome to 22seven"
              />
