@@ -57,7 +57,7 @@
 
    <mj-section>
       <mj-column width="100%">
-         <mj-social mode="horizontal" align="center" icon-size="62px">
+         <mj-social mode="horizontal" align="center" icon-size="60px">
           <mj-social-element 
             src="https://22seven-mailer.s3.amazonaws.com/images/globals/footers/facebook.png"
             alt="Facebook" 

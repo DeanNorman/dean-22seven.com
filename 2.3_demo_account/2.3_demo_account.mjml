@@ -68,49 +68,24 @@
             </mj-text>
          </mj-column>
 
-      
-
-            </mj-column>
-                  <mj-column width="20%">
-            <mj-image
-               width="55px"
-               padding="0px"
-               src="http://22seven-mailer.s3.amazonaws.com/images/2.4/1.png"
-               alt=""
-               align="right" />
-         </mj-column>
-         <mj-column width="80%" padding="0px" >            
-            <mj-text padding="11px 0" font-size="12px">
-            Log into 22seven on <a href="https://play.google.com/store/apps/details?id=com.twentytwoseven.android"  style="color: #27c5b8;">Android</a> (we’re still working on the iOS and <br/>Web demo features). 
+         <mj-column width="100%">            
+            <mj-text padding="11px 20px" font-size="13px" align="center">
+            <strong>1.</strong> &nbsp;Log into 22seven on <a href="https://play.google.com/store/apps/details?id=com.twentytwoseven.android"  style="color: #27c5b8;">Android</a> (we’re still working on the iOS and <br/>Web demo features). 
             </mj-text>
          </mj-column>
-         <mj-column width="20%">
          
-            <mj-image
-               width="55px"
-               padding="0px"
-               src="http://22seven-mailer.s3.amazonaws.com/images/2.4/2.png"
-               alt=""
-               align="right" />
-         </mj-column>
-         <mj-column width="80%" padding="0px" >            
-            <mj-text padding="16px 0" font-size="12px">
-               Go to the “Accounts” screen and hit the (+) button. 
+         <mj-column width="100%">            
+            <mj-text padding="16px 20px" font-size="13px" align="center">
+               <strong>2.</strong> &nbsp;Go to the “Accounts” screen and hit the (+) button. 
             </mj-text>
          </mj-column>
-                  <mj-column width="20%">
-            <mj-image
-               width="55px"
-               padding="0px"
-               src="http://22seven-mailer.s3.amazonaws.com/images/2.4/3.png"
-               alt=""
-               align="right" />
-         </mj-column>
-         <mj-column width="80%" padding="0px" >            
-            <mj-text padding="17px 0" font-size="12px">
-             Click on the 'Add some demo accounts' pop-up message…and away you go.
+           
+         <mj-column width="100%">            
+            <mj-text padding="17px 20px" font-size="13px" align="center">
+             <strong>3.</strong> &nbsp;Click on the 'Add some demo accounts' pop-up message…and away you go.
             </mj-text>
          </mj-column>
+
          <mj-column width="100%">
          <mj-button
             href="https://www.22seven.com/app/add-account/linked"

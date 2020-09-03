@@ -92,56 +92,31 @@
                <mj-text align="center" font-size="14px" padding-top="15px">
                First, <a href="https://conversations.22seven.com/hc/en-us/articles/360035940254-What-s-Old-Mutual-Rewards-" style="color:#27c5b8;">sign up for Old Mutual Rewards</a>.
             </mj-text>
+         </mj-column>
 
-         </mj-column>
-         <mj-column width="20%">
-            <mj-image
-               width="55px"
-               padding="0px"
-               src="http://22seven-mailer.s3.amazonaws.com/images/2.4/1.png"
-               alt=""
-               align="right" />
-         </mj-column>
-         <mj-column width="80%" padding="0px" >            
-            <mj-text padding="16px 0" font-size="12px">
-            Log into 22seven (on <a href="https://play.google.com/store/apps/details?id=com.twentytwoseven.android"  style="color: #27c5b8;">Android</a> or <a href="https://apps.apple.com/us/app/22seven-budget-track-save/id611120440?ls=1" style="color: #27c5b8;">iOS</a>).
+         <mj-column width="100%">            
+            <mj-text padding="16px 20px" font-size="13px" align="center">
+            <strong>1.</strong>&nbsp;Log into 22seven (on <a href="https://play.google.com/store/apps/details?id=com.twentytwoseven.android"  style="color: #27c5b8;">Android</a> or <a href="https://apps.apple.com/us/app/22seven-budget-track-save/id611120440?ls=1" style="color: #27c5b8;">iOS</a>).
             </mj-text>
          </mj-column>
-         <mj-column width="20%">
-            <mj-image
-               width="55px"
-               padding="0px"
-               src="http://22seven-mailer.s3.amazonaws.com/images/2.4/2.png"
-               
-               alt=""
-               align="right" />
-         </mj-column>
-         <mj-column width="80%" padding="0px" >            
-            <mj-text padding="16px 0" font-size="12px">
-               Go to your Settings, then hit “Profile”.
+   
+         <mj-column width="100%">            
+            <mj-text padding="16px 20px" font-size="13px" align="center">
+               <strong>2.</strong>&nbsp;Go to your Settings, then hit “Profile”.
             </mj-text>
          </mj-column>
-         <mj-column width="20%">
-            <mj-image
-               width="55px"
-               padding="0px"
-               src="http://22seven-mailer.s3.amazonaws.com/images/2.4/3.png"
-               alt=""
-               align="right" />
-         </mj-column>
-         <mj-column width="80%" padding="0px" >            
-            <mj-text padding="16px 0" font-size="12px">
-               Scroll down and hit “Earn Old Mutual Rewards”, then follow the prompts.
+
+         <mj-column width="100%">            
+            <mj-text padding="16px 20px" font-size="13px" align="center">
+               <strong>3.</strong>&nbsp;Scroll down and hit “Earn Old Mutual Rewards”, then follow the prompts.
             </mj-text>
          </mj-column>
 
          <mj-column width="40%">
             <mj-image src="http://22seven-mailer.s3.amazonaws.com/images/2.5/icon-android.png" alt="" />
-               
          </mj-column>
-                  <mj-column width="40%">
+         <mj-column width="40%">
             <mj-image src="http://22seven-mailer.s3.amazonaws.com/images/2.5/icon-ios.png" alt="" />
-               
          </mj-column>
       </mj-section>
    </mj-wrapper>
@@ -157,43 +132,22 @@
               Then, link an account to 22seven.
             </mj-text>
          </mj-column>
-         <mj-column width="20%">
-            <mj-image
-               width="55px"
-               padding="0px"
-               src="http://22seven-mailer.s3.amazonaws.com/images/2.5/1.png"
-               alt=""
-               align="right" />
-         </mj-column>
-         <mj-column width="80%" padding="0px" >            
-            <mj-text padding="16px 0" font-size="12px">
-               Go to the “Accounts” screen and hit the (+) button.
+
+         <mj-column width="100%" >            
+            <mj-text padding="16px 20px" font-size="13px" align="center">
+               <strong>1.</strong>&nbsp;Go to the “Accounts” screen and hit the (+) button.
             </mj-text>
          </mj-column>
-         <mj-column width="20%">
-            <mj-image
-               width="55px"
-               padding="0px"
-               src="http://22seven-mailer.s3.amazonaws.com/images/2.4/2.png"
-               alt=""
-               align="right" />
-         </mj-column>
-         <mj-column width="80%" padding="0px" >            
-            <mj-text padding="11px 0" font-size="12px">
-               Choose the service provider you want to link. (We suggest you<br/> start with the account you use most often.)
+ 
+         <mj-column width="100%" >            
+            <mj-text padding="11px 20px" font-size="13px" align="center">
+               <strong>2.</strong>&nbsp;Choose the service provider you want to link. (We suggest you<br/> start with the account you use most often.)
             </mj-text>
          </mj-column>
-                  <mj-column width="20%">
-            <mj-image
-               width="55px"
-               padding="0px"
-               src="http://22seven-mailer.s3.amazonaws.com/images/2.4/3.png"
-               alt=""
-               align="right" />
-         </mj-column>
-         <mj-column width="80%" padding="0px" >            
-            <mj-text padding="16px 0" font-size="12px">
-            Enter the same login details you’d use on their website.
+
+         <mj-column width="100%" >            
+            <mj-text padding="16px 20px" font-size="13px" align="center">
+            <strong>3.</strong>&nbsp;Enter the same login details you’d use on their website.
             </mj-text>
          </mj-column>
 
