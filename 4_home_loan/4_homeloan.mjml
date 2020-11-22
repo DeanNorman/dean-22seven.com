@@ -1,0 +1,210 @@
+<mjml>
+   <mj-include path="../template_components/_globals.mjml" /> <!-- globals -->
+   <mj-body background-color="#F1F5FB">
+   <mj-include path="../template_components/headerLogo.mjml" /> <!-- Header Logo Include -->
+
+   <mj-wrapper padding="0px">
+      <mj-section>
+      <mj-column>
+         <mj-text>Date 19/11/2020</mj-text>
+      </mj-column>
+      </mj-section> <!-- Plain Section -->
+   </mj-wrapper> 
+      <mj-wrapper padding="0 15px">
+         <mj-section 
+            background-color="#4e4c64"
+            border-radius="15px"
+            padding="0px">
+            <mj-column>
+               <mj-image
+                  src="./img/ribbon-icon.png"
+                  alt="Welcome to 22seven"
+                  padding="20px"
+                  width="100px"/>
+            </mj-column>
+         </mj-section> <!-- Plain Section -->
+      </mj-wrapper>
+
+
+      <mj-section>
+         <mj-column>
+            <mj-text
+               align="center"
+               font-size="18px"
+               font-weight="600">
+               🎉 &nbsp;Congratulations
+            </mj-text>
+         </mj-column>
+      </mj-section> <!-- Congratulations divider -->
+
+      <mj-wrapper padding="0 15px">
+         <mj-section mj-class="section" padding="15px 0px" >
+            <mj-column>
+
+               <mj-text mj-class="sectionText--normal">
+
+                  Thank you for your interest, and congratulations on taking the first step towards getting the best deal on your home loan! We are excited to present you with your pre-qualification certificate as attached.<br/><br/>
+                  
+
+                  We also include the ONE home loan application form, which you complete and return to us, once you have found your dream home.<br/><br/>
+
+                  You will then need to include your ID Document, latest Payslip / proof of income, last 3 Months bank statements and proof of your residential address not older than 3 months.<br/><br/>
+                  
+                  Once this is received, we will apply to all the banks to find you the best rate. We will stay in touch and keep you posted during the process.
+               </mj-text>
+            </mj-column>
+         </mj-section> <!-- Plain Section -->
+      </mj-wrapper>
+
+      <mj-section /> <!-- spacer -->
+
+   
+
+      <mj-section /> <!-- spacer -->
+
+      <mj-wrapper padding="0 15px">
+         <mj-section mj-class="section" padding="15px 0px">
+            <mj-column width="100%">
+               <mj-text
+                  align="center"
+                  mj-class="title"
+               >
+                 Riana Smit
+               </mj-text>
+               <mj-text
+                  align="center"
+                  mj-class="sectionText--normal"
+               >
+                  You can now shop for your new home with confidence!
+               </mj-text>
+               <mj-text align="center">
+                  Based on your data, we estimate
+                  you could qualify for a home loan of:
+               </mj-text>  
+ 
+   
+            </mj-column>
+            <mj-column width="250px" width="50%" background-color="#E9F9F8">
+              <mj-text align="center" font-weight="bold" font-size="16px">R1,123,456</mj-text>
+            </mj-column>
+
+            <mj-column width="100%">
+            <mj-text align="center">
+                  At an estimated monthly repayment of: 
+               </mj-text>     
+            </mj-column>
+
+            <mj-column width="250px" width="50%" background-color="#E9F9F8">
+              <mj-text align="center" font-weight="bold" font-size="16px">R8,902</mj-text>
+            </mj-column>
+
+            <mj-column width="100%">
+            <mj-text align="center">
+                  Estimated upfront fees: 
+               </mj-text>     
+            </mj-column>
+
+            <mj-column width="250px" width="50%" background-color="#E9F9F8">
+              <mj-text align="center" font-weight="bold" font-size="16px">R58,646.27</mj-text>
+            </mj-column>
+            
+  
+         </mj-section> <!-- Plain Section -->
+      </mj-wrapper>
+
+      <mj-section /> <!-- spacer -->
+
+      <mj-wrapper padding="0 15px">
+         <mj-section mj-class="section" padding="15px 0px">
+
+         <mj-column>
+               <mj-image
+                  src="./img/house-icon.png"
+                  alt="Welcome to 22seven"
+                  padding="20px"
+                  width="100px"/>
+            </mj-column>
+                     <mj-column width="100%">
+            <mj-text align="center">
+                  Once you find your dream home, contact us on <a href="mailto:22seven@multinet.co.za">22seven@multinet.co.za</a> with your completed loan application form. We will find you the best rate, for free.
+               </mj-text>     
+            </mj-column>
+         </mj-section> <!-- Plain Section -->
+      </mj-wrapper>
+
+         <mj-section /> <!-- spacer -->
+
+         <mj-wrapper padding="0 15px">
+            <mj-section mj-class="section" padding="15px 0px">
+     
+
+               <mj-column width="25%">
+                                <mj-text mj-class="text--column">
+                     Monthly income after deductions:
+                  </mj-text>
+                  <mj-text mj-class="text--column">
+                    R31,234
+                  </mj-text>
+               </mj-column> <!-- Get Debt Free -->
+               <mj-column width="25%">
+                                 <mj-text mj-class="text--column">
+                     Monthly expenses:
+
+                  </mj-text>
+                  <mj-text mj-class="text--column">
+                     R20,783
+
+                  </mj-text>
+               </mj-column> <!-- Detect Double Charge -->
+               <mj-column width="25%">
+                                 <mj-text
+                     mj-class="text--column">
+                   Variable interest rate (%)
+
+                  </mj-text>
+                  <mj-text
+                     mj-class="text--column">
+                    7.00
+                  </mj-text>
+               </mj-column> <!-- Detect Double Charge -->
+                              
+               <mj-column width="25%">
+                                    <mj-text mj-class="text--column">
+                   Loan term (years)
+
+                  </mj-text>
+                  <mj-text mj-class="text--column">
+                    20
+                  </mj-text>
+               </mj-column> <!-- Detect Double Charge -->
+         </mj-wrapper>
+
+         <mj-section /> <!-- spacer -->
+         
+         <mj-wrapper padding="0 15px">
+            <mj-section
+               background-color="#4E4C6A"
+               border-radius="15px">
+               <mj-column>
+                  <mj-text
+                     mj-class="title"
+                     color="#fff">
+                     💡 Disclaimer
+                  </mj-text>
+                  <mj-text
+                     mj-class="sectionText--normal"
+                     color="#fff">
+                    Disclaimer - The above value is an estimation only, based on the information supplied by you, and is to be used merely as a guideline. Should any of your financial information be incorrect or have changed since the date of this assessment, the outcome of your home loan application may produce a different result than provided for herein.
+                     Although every effort has been made to ensure the accuracy of the contents, 22seven, MultiNET and its business associates accept no liability in respect of any errors. Any formal home loan application will be subject to each bank’s individual credit criteria and your consumer credit profile and the bank reserves the right to offer a lesser amount or decline the application.
+
+
+                  </mj-text>
+               </mj-column>
+            </mj-section> <!-- Plain Section -->
+         </mj-wrapper>
+
+         <mj-section /> <!-- spacer -->
+         
+         <mj-include path="../template_components/welcome_footer.mjml" /> <!-- Footer Include -->
+   </mj-body>
+</mjml>

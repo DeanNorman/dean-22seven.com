@@ -36,7 +36,7 @@
             <mj-column>
                <mj-text mj-class="title"
                   padding-top="15px">
-                  Hi {name}
+                  Hi *|FNAME|*
                </mj-text>
                <mj-text mj-class="sectionText--normal">
                   It’s Phumza here from 22seven’s support team.<br/><br/>
