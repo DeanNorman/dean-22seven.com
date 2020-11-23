@@ -35,27 +35,6 @@
          </mj-column>
       </mj-section> <!-- Congratulations divider -->
 
-      <mj-wrapper padding="0 15px">
-         <mj-section mj-class="section" padding="15px 0px">
-
-
-            <mj-column width="50%">
-                              <mj-image
-               src="./img/22seven-logo.png"
-               alt="Welcome to 22seven"
-               padding="20px"
-               />
-            </mj-column> <!-- Get Debt Free -->
-            <mj-column width="50%">
-                           <mj-image
-               src="./img/multinet-logo.png"
-               alt="Welcome to 22seven"
-               padding="20px"
-               width="150px"/>
-            </mj-column> <!-- Detect Double Charge -->
-            
-      </mj-wrapper>
-      <mj-section /> <!-- spacer -->
 
       <mj-wrapper padding="0 15px">
          <mj-section mj-class="section" padding="15px 0px" >
