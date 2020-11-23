@@ -52,6 +52,15 @@
          background-color="#fff"
          border-radius="15px" />
 
+
+      <mj-class
+         name="section-column"
+         background-color="#fff"
+         border-radius="15px"
+         margin="20px 20px" 
+         paddin="20px"
+         width="25%"/>
+
       <mj-all font-family="Helvetica" />
 
    </mj-attributes>

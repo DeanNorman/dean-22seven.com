@@ -19,7 +19,7 @@
                <mj-image
                   src="./img/ribbon-icon.png"
                   alt="Welcome to 22seven"
-                  padding="20px"
+                  padding="40px"
                   width="100px"/>
             </mj-column>
          </mj-section> <!-- Plain Section -->
@@ -30,12 +30,34 @@
          <mj-column>
             <mj-text
                align="center"
-               font-size="18px"
+               font-size="20px"
                font-weight="600">
-               🎉 &nbsp;Congratulations
+               🎉 &nbsp;Congratulations!
             </mj-text>
          </mj-column>
       </mj-section> <!-- Congratulations divider -->
+
+      <mj-wrapper padding="0 15px">
+         <mj-section mj-class="section" padding="15px 0px">
+
+
+            <mj-column width="50%">
+                              <mj-image
+               src="./img/22seven-logo.png"
+               alt="Welcome to 22seven"
+               padding="20px"
+               />
+            </mj-column> <!-- Get Debt Free -->
+            <mj-column width="50%">
+                           <mj-image
+               src="./img/multinet-logo.png"
+               alt="Welcome to 22seven"
+               padding="20px"
+               width="150px"/>
+            </mj-column> <!-- Detect Double Charge -->
+            
+      </mj-wrapper>
+      <mj-section /> <!-- spacer -->
 
       <mj-wrapper padding="0 15px">
          <mj-section mj-class="section" padding="15px 0px" >
@@ -60,7 +82,7 @@
 
    
 
-      <mj-section /> <!-- spacer -->
+      
 
       <mj-wrapper padding="0 15px">
          <mj-section mj-class="section" padding="15px 0px">
@@ -68,45 +90,96 @@
                <mj-text
                   align="center"
                   mj-class="title"
+                  font-size="25px"
                >
                  Riana Smit
                </mj-text>
                <mj-text
                   align="center"
                   mj-class="sectionText--normal"
+                  font-size="16px"
+                  padding-bottom='25px'
                >
                   You can now shop for your new home with confidence!
                </mj-text>
-               <mj-text align="center">
-                  Based on your data, we estimate
+               <mj-divider border-width="1px" border-style="solid" border-color="lightgrey"  padding-bottom='25px'/>
+             </mj-column>    
+         
+            <mj-column width="100%"> 
+            <mj-text align="center" line-height="16px" padding-bottom="20px"  font-size="15px" padding-top="15px">
+                  Based on your data, we estimate<br/>
                   you could qualify for a home loan of:
                </mj-text>  
- 
-   
-            </mj-column>
-            <mj-column width="250px" width="50%" background-color="#E9F9F8">
-              <mj-text align="center" font-weight="bold" font-size="16px">R1,123,456</mj-text>
             </mj-column>
 
+            <mj-column width="20%"> </mj-column>
+            <mj-column width="35%" background-color="#E9F9F8" border-radius="20px" > 
+                <mj-text align="center"   font-weight="bold" font-size="16px">R1,123,456</mj-text>
+            </mj-column>
+            <mj-column width="20%"></mj-column>
+            
             <mj-column width="100%">
-            <mj-text align="center">
+               <mj-divider  padding-top="25px" border-width="1px" border-style="solid" border-color="#E9F9F8" width="50%" />
+            </mj-column>
+            
+            <mj-column width="100%"> 
+            <mj-text align="center"  line-height="16px" padding-bottom="20px"  font-size="15px" padding-top="10px">
+                At an estimated monthly repayment of: 
+               </mj-text>  
+            </mj-column>
+
+            <mj-column width="20%"> </mj-column>
+             <mj-column width="35%" background-color="#E9F9F8" border-radius="20px" > 
+             
+                <mj-text align="center"  font-weight="bold" font-size="16px">R8,902</mj-text>
+            </mj-column>
+            <mj-column width="20%"></mj-column>
+            
+            <mj-column width="100%">
+               <mj-divider padding-top="25px" border-width="1px" border-style="solid" border-color="#E9F9F8" width="50%" />
+            </mj-column>
+
+          <mj-column width="100%"> 
+            <mj-text align="center" line-height="16px" padding-bottom="20px" font-size="14px" padding-top="15px">
+                  Estimated upfront fees: 
+               </mj-text>  
+            </mj-column>
+
+            <mj-column width="20%"> </mj-column>
+             <mj-column width="35%" background-color="#E9F9F8" border-radius="20px" > 
+                <mj-text align="center"  font-weight="bold" font-size="16px">R58,646.27</mj-text>
+            </mj-column>
+            <mj-column width="20%"></mj-column>
+            <mj-column width="100%">
+               <mj-divider border-width="20px" border-style="dashed" border-color="transparent" />
+            </mj-column>
+            
+
+
+
+ 
+
+            
+
+            <!-- <mj-column width="100%">
+            <mj-text align="center" padding-bottom="25px">
                   At an estimated monthly repayment of: 
                </mj-text>     
-            </mj-column>
+            </mj-column> -->
 
-            <mj-column width="250px" width="50%" background-color="#E9F9F8">
+            <!-- <mj-column width="250px" width="50%" background-color="#E9F9F8">
               <mj-text align="center" font-weight="bold" font-size="16px">R8,902</mj-text>
             </mj-column>
 
             <mj-column width="100%">
-            <mj-text align="center">
+            <mj-text align="center" padding-bottom="25px">
                   Estimated upfront fees: 
                </mj-text>     
             </mj-column>
 
-            <mj-column width="250px" width="50%" background-color="#E9F9F8">
+            <mj-column width="250px" width="50%" background-color="#E9F9F8" >
               <mj-text align="center" font-weight="bold" font-size="16px">R58,646.27</mj-text>
-            </mj-column>
+            </mj-column> -->
             
   
          </mj-section> <!-- Plain Section -->
@@ -125,59 +198,102 @@
                   width="100px"/>
             </mj-column>
                      <mj-column width="100%">
-            <mj-text align="center">
-                  Once you find your dream home, contact us on <a href="mailto:22seven@multinet.co.za">22seven@multinet.co.za</a> with your completed loan application form. We will find you the best rate, for free.
+            <mj-text mj-class="sectionText--normal">
+                  Once you find your dream home, contact us on <a href="mailto:22seven@multinet.co.za" style="color: #27c5b8;">22seven@multinet.co.za</a> with your completed loan application form. We will find you the best rate, for free.
                </mj-text>     
+                <mj-divider border-width="1px" border-style="solid" border-color="lightgrey"  padding-bottom='25px'/>
             </mj-column>
+      <mj-column width="50%">
+        <mj-text font-weight="bold" >Monthly income after deductions:</mj-text>
+        
+         <mj-text font-size="14px"> 
+            R31,234
+         </mj-text>
+      </mj-column>
+           <mj-column width="50%">
+        <mj-text font-weight="bold" >Monthly expenses:
+:</mj-text>
+         <mj-text font-size="14px"> 
+            R20,783
+
+         </mj-text>
+      </mj-column>
+      
+           <mj-column width="50%">
+        <mj-text font-weight="bold" >Variable interest rate (%)
+</mj-text>
+         <mj-text font-size="14px"> 
+            R31,234
+         </mj-text>
+      </mj-column>
+           <mj-column width="50%">
+        <mj-text font-weight="bold" >Loan term (years)</mj-text>
+         <mj-text font-size="14px"> 
+            20
+         </mj-text>
+      </mj-column>
          </mj-section> <!-- Plain Section -->
       </mj-wrapper>
 
-         <mj-section /> <!-- spacer -->
+   
+   
 
-         <mj-wrapper padding="0 15px">
-            <mj-section mj-class="section" padding="15px 0px">
+
      
+    
 
-               <mj-column width="25%">
-                                <mj-text mj-class="text--column">
-                     Monthly income after deductions:
-                  </mj-text>
-                  <mj-text mj-class="text--column">
-                    R31,234
-                  </mj-text>
-               </mj-column> <!-- Get Debt Free -->
-               <mj-column width="25%">
-                                 <mj-text mj-class="text--column">
-                     Monthly expenses:
+<!-- <mj-wrapper padding=" 0 15px">
+   <mj-section>
+      <mj-group>
+        <mj-column background-color="#fff"  border-radius="10px">
+          
+          <mj-text align="center">
+            <h2> Monthly income after deductions:</h2>
+            <p>R31,234</p>
+          </mj-text>
+        </mj-column>
+        <mj-column>
 
-                  </mj-text>
-                  <mj-text mj-class="text--column">
-                     R20,783
+                  <mj-text align="center">
+            <h2> Monthly income after deductions:</h2>
+            <p>R31,234</p>
+          </mj-text>
+        </mj-column>
+        <mj-column>
+                   
 
-                  </mj-text>
-               </mj-column> <!-- Detect Double Charge -->
-               <mj-column width="25%">
-                                 <mj-text
-                     mj-class="text--column">
-                   Variable interest rate (%)
+      </mj-group>
+    </mj-section>
 
-                  </mj-text>
-                  <mj-text
-                     mj-class="text--column">
-                    7.00
-                  </mj-text>
-               </mj-column> <!-- Detect Double Charge -->
-                              
-               <mj-column width="25%">
-                                    <mj-text mj-class="text--column">
-                   Loan term (years)
+</mj-wrapper> -->
 
-                  </mj-text>
-                  <mj-text mj-class="text--column">
-                    20
-                  </mj-text>
-               </mj-column> <!-- Detect Double Charge -->
-         </mj-wrapper>
+<!-- 
+<mj-wrapper padding=" 0 15px">
+   <mj-section>
+      <mj-group>
+        <mj-column background-color="#fff"  border-radius="10px">
+          
+          <mj-text>
+            <h2> Monthly income after deductions:</h2>
+            <p>R31,234</p>
+          </mj-text>
+        </mj-column>
+        <mj-column>
+
+                  <mj-text >
+            <h2> Monthly income after deductions:</h2>
+            <p>R31,234</p>
+          </mj-text>
+        </mj-column>
+        <mj-column>
+                   
+
+      </mj-group>
+    </mj-section>
+
+</mj-wrapper> -->
+
+      
 
          <mj-section /> <!-- spacer -->
          
@@ -194,7 +310,7 @@
                   <mj-text
                      mj-class="sectionText--normal"
                      color="#fff">
-                    Disclaimer - The above value is an estimation only, based on the information supplied by you, and is to be used merely as a guideline. Should any of your financial information be incorrect or have changed since the date of this assessment, the outcome of your home loan application may produce a different result than provided for herein.
+                    The above value is an estimation only, based on the information supplied by you, and is to be used merely as a guideline. Should any of your financial information be incorrect or have changed since the date of this assessment, the outcome of your home loan application may produce a different result than provided for herein.<br/><br/>
                      Although every effort has been made to ensure the accuracy of the contents, 22seven, MultiNET and its business associates accept no liability in respect of any errors. Any formal home loan application will be subject to each bank’s individual credit criteria and your consumer credit profile and the bank reserves the right to offer a lesser amount or decline the application.
 
 
