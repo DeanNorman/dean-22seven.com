@@ -204,34 +204,36 @@
                 <mj-divider border-width="1px" border-style="solid" border-color="lightgrey"  padding-bottom='25px'/>
             </mj-column>
       <mj-column width="50%">
-        <mj-text font-weight="bold" >Monthly income after deductions:</mj-text>
+        <mj-text font-weight="bold" padding="0px 25px" >Monthly income after deductions:</mj-text>
         
-         <mj-text font-size="14px"> 
+         <mj-text font-size="16px"> 
             R31,234
          </mj-text>
+         <mj-divider padding-bottom="15px" border-width="1px" border-style="solid" border-color="lightgrey"/>
       </mj-column>
-           <mj-column width="50%">
-        <mj-text font-weight="bold" >Monthly expenses:
-:</mj-text>
-         <mj-text font-size="14px"> 
+         <mj-column width="50%">
+        <mj-text font-weight="bold" padding="0px 25px" >Monthly expenses:</mj-text>
+         <mj-text font-size="16px"> 
             R20,783
-
          </mj-text>
+         <mj-divider padding-bottom="15px" border-width="1px" border-style="solid" border-color="lightgrey"/>
       </mj-column>
       
            <mj-column width="50%">
-        <mj-text font-weight="bold" >Variable interest rate (%)
-</mj-text>
-         <mj-text font-size="14px"> 
+        <mj-text font-weight="bold" padding="0px 25px" >Variable interest rate (%)</mj-text>
+         <mj-text font-size="16px"> 
             R31,234
          </mj-text>
+         
       </mj-column>
            <mj-column width="50%">
-        <mj-text font-weight="bold" >Loan term (years)</mj-text>
-         <mj-text font-size="14px"> 
+        <mj-text font-weight="bold" padding="0px 25px" >Loan term (years)</mj-text>
+         <mj-text font-size="16px"> 
             20
          </mj-text>
+        
       </mj-column>
+      
          </mj-section> <!-- Plain Section -->
       </mj-wrapper>
 
