@@ -21,10 +21,10 @@
                   <mj-text>
                   
             </mj-column>
-            <mj-column width="28%">
+            <mj-column width="24%">
                <mj-image
                   align="center"
-                  src="https://22seven-mailer.s3.amazonaws.com/images/2.5/header-icon.png"
+                  src="./img/house-icon.png"
                   alt="Welcome to 22seven"
              />
             </mj-column>
@@ -104,61 +104,78 @@
                 <mj-text align="center"  font-weight="bold" font-size="16px">R58,646.27</mj-text>
             </mj-column>
             <mj-column width="20%"></mj-column>
+
+
+            <mj-column width="100%">
+               <mj-divider padding-top="25px" border-width="1px" border-style="solid" border-color="#E9F9F8" width="50%" />
+            </mj-column>
+
+          <mj-column width="100%"> 
+            <mj-text align="center" line-height="16px" padding-bottom="20px" font-size="14px" padding-top="15px">
+                  Variable interest rate (%)
+               </mj-text>  
+            </mj-column>
+
+            <mj-column width="20%"> </mj-column>
+             <mj-column width="35%" background-color="#E9F9F8" border-radius="20px" > 
+                <mj-text align="center"  font-weight="bold" font-size="16px">R31,234</mj-text>
+            </mj-column>
+            <mj-column width="20%"></mj-column>
+
+
+            <mj-column width="100%">
+               <mj-divider padding-top="25px" border-width="1px" border-style="solid" border-color="#E9F9F8" width="50%" />
+            </mj-column>
+
+          <mj-column width="100%"> 
+            <mj-text align="center" line-height="16px" padding-bottom="20px" font-size="14px" padding-top="15px">
+                  Loan term (years)
+               </mj-text>  
+            </mj-column>
+
+            <mj-column width="20%"> </mj-column>
+             <mj-column width="35%" background-color="#E9F9F8" border-radius="20px" > 
+                <mj-text align="center"  font-weight="bold" font-size="16px">20
+            </mj-text>
+            </mj-column>
+            <mj-column width="20%"></mj-column>
             <mj-column width="100%">
                <mj-divider border-width="20px" border-style="dashed" border-color="transparent" />
             </mj-column>
-                   
-  
          </mj-section> <!-- Plain Section -->
       </mj-wrapper>
 
       <mj-section /> <!-- spacer -->
 
       <mj-wrapper padding="0 15px">
+      
          <mj-section mj-class="section" padding="15px 0px">
-
-         <mj-column>
-               <mj-image
-                  src="./img/house-icon.png"
-                  alt="Welcome to 22seven"
-                  padding="20px"
-                  width="100px"/>
-            </mj-column>
-                     <mj-column width="100%">
-            <mj-text mj-class="sectionText--normal" padding-bottom='25px'>
-                  Once you find your dream home, contact us on <a href="mailto:22seven@multinet.co.za" style="color: #27c5b8;">22seven@multinet.co.za</a> with your completed loan application form. We will find you the best rate, for free.
-               </mj-text>     
-            </mj-column>
+         
+   <mj-column width="100%">
+                           <mj-text mj-class="title"
+                  padding-top="15px">
+                 Information supplied by customer:
+               </mj-text>
+   </mj-column>
       <mj-column width="50%">
+      <mj-divider padding-bottom="15px" border-width="1px" border-style="solid" border-color="lightgrey"/>
         <mj-text font-weight="bold" padding="0px 25px" >Monthly income after deductions:</mj-text>
         
          <mj-text font-size="16px"> 
             R31,234
          </mj-text>
-         <mj-divider padding-bottom="15px" border-width="1px" border-style="solid" border-color="lightgrey"/>
+         
       </mj-column>
          <mj-column width="50%">
+         <mj-divider padding-bottom="15px" border-width="1px" border-style="solid" border-color="lightgrey"/>
         <mj-text font-weight="bold" padding="0px 25px" >Monthly expenses:</mj-text>
          <mj-text font-size="16px"> 
             R20,783
          </mj-text>
-         <mj-divider padding-bottom="15px" border-width="1px" border-style="solid" border-color="lightgrey"/>
-      </mj-column>
-      
-           <mj-column width="50%">
-        <mj-text font-weight="bold" padding="0px 25px" >Variable interest rate (%)</mj-text>
-         <mj-text font-size="16px"> 
-            R31,234
-         </mj-text>
-         
-      </mj-column>
-           <mj-column width="50%">
-        <mj-text font-weight="bold" padding="0px 25px" >Loan term (years)</mj-text>
-         <mj-text font-size="16px"> 
-            20
-         </mj-text>
         
       </mj-column>
+      
+
       
          </mj-section> <!-- Plain Section -->
       </mj-wrapper>
@@ -166,10 +183,21 @@
       <mj-section /> <!-- spacer -->
             <mj-wrapper padding="0 15px">
          <mj-section mj-class="section" padding="15px 0px" >
+               
+            
             <mj-column>
-
+                          <!-- <mj-image
+                  src="./img/house-icon.png"
+                  alt="Welcome to 22seven"
+                  padding="20px"
+                  width="100px"/> -->
+                                 <mj-text mj-class="title"
+                  padding-top="15px">
+                  What are the next steps?
+               </mj-text>
                <mj-text mj-class="sectionText--normal">
-
+                  Once you find your dream home, contact us on <a href="mailto:22seven@multinet.co.za" style="color: #27c5b8;">22seven@multinet.co.za</a> with your completed loan application form. We will find you the best rate, for free.
+                  <br/><br/>
                   Thank you for your interest, and congratulations on taking the first step towards getting the best deal on your home loan! We are excited to present you with your pre-qualification certificate as attached.<br/><br/>
                   
 
@@ -232,6 +260,6 @@
 
          <mj-section /> <!-- spacer -->
          
-         <mj-include path="../template_components/welcome_footer.mjml" /> <!-- Footer Include -->
+         <mj-include path="../template_components/homeloan_footer.mjml" /> <!-- Footer Include -->
    </mj-body>
 </mjml>
