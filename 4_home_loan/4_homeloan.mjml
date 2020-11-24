@@ -4,70 +4,46 @@
    <mj-include path="../template_components/headerLogo.mjml" /> <!-- Header Logo Include -->
 
    <mj-wrapper padding="0px">
-      <mj-section>
 
-      </mj-section> <!-- Plain Section -->
    </mj-wrapper> 
-      <mj-wrapper padding="0 15px">
-         <mj-section 
-            background-color="#4e4c64"
-            border-radius="15px"
-            padding="0px">
-            <mj-column>
+   <mj-wrapper padding="0 15px">
+      <mj-section 
+         background-color="#6A678B"
+         border-radius="15px"
+         padding="14px 0px">
+            <mj-column width="72%">
                <mj-image
-                  src="./img/ribbon-icon.png"
+                  src="./img/header-text.png"
                   alt="Welcome to 22seven"
-                  padding="40px"
-                  width="100px"/>
+                  padding-top="40px"
+                  align="center"
+                  />
+                  <mj-text>
+                  
             </mj-column>
-         </mj-section> <!-- Plain Section -->
-      </mj-wrapper>
-
-
-      <mj-section>
-         <mj-column>
-            <mj-text
-               align="center"
-               font-size="20px"
-               font-weight="600">
-               🎉 &nbsp;Congratulations!
-            </mj-text>
-         </mj-column>
-      </mj-section> <!-- Congratulations divider -->
-
-
-      <mj-wrapper padding="0 15px">
-         <mj-section mj-class="section" padding="15px 0px" >
-            <mj-column>
-
-               <mj-text mj-class="sectionText--normal">
-
-                  Thank you for your interest, and congratulations on taking the first step towards getting the best deal on your home loan! We are excited to present you with your pre-qualification certificate as attached.<br/><br/>
-                  
-
-                  We also include the ONE home loan application form, which you complete and return to us, once you have found your dream home.<br/><br/>
-
-                  You will then need to include your ID Document, latest Payslip / proof of income, last 3 Months bank statements and proof of your residential address not older than 3 months.<br/><br/>
-                  
-                  Once this is received, we will apply to all the banks to find you the best rate. We will stay in touch and keep you posted during the process.
-               </mj-text>
+            <mj-column width="28%">
+               <mj-image
+                  align="center"
+                  src="https://22seven-mailer.s3.amazonaws.com/images/2.5/header-icon.png"
+                  alt="Welcome to 22seven"
+             />
             </mj-column>
          </mj-section> <!-- Plain Section -->
       </mj-wrapper>
 
       <mj-section /> <!-- spacer -->
 
-   
-
-      
-
       <mj-wrapper padding="0 15px">
-         <mj-section mj-class="section" padding="15px 0px">
+         <mj-section mj-class="sectionGold" padding="15px 0px"  border-radius="10px"> 
             <mj-column width="100%">
+                           <mj-image
+                  src="./img/ribbon-icon.png"
+                  alt="Welcome to 22seven"
+                  width="100px"/>
                <mj-text
                   align="center"
                   mj-class="title"
-                  font-size="25px"
+                  font-size="30px"
                >
                  Riana Smit
                </mj-text>
@@ -75,12 +51,11 @@
                   align="center"
                   mj-class="sectionText--normal"
                   font-size="16px"
-                  
                >
                   You can now shop for your new home with confidence!
                </mj-text>
                <mj-text align="center" padding-bottom='25px'>Date 19/11/2020</mj-text>
-      
+      <mj-divider  padding-top="5px" border-width="1px" border-style="solid" border-color="#FFD04C" width="50%" />
                
              </mj-column>    
          
@@ -188,6 +163,25 @@
          </mj-section> <!-- Plain Section -->
       </mj-wrapper>
 
+      <mj-section /> <!-- spacer -->
+            <mj-wrapper padding="0 15px">
+         <mj-section mj-class="section" padding="15px 0px" >
+            <mj-column>
+
+               <mj-text mj-class="sectionText--normal">
+
+                  Thank you for your interest, and congratulations on taking the first step towards getting the best deal on your home loan! We are excited to present you with your pre-qualification certificate as attached.<br/><br/>
+                  
+
+                  We also include the ONE home loan application form, which you complete and return to us, once you have found your dream home.<br/><br/>
+
+                  You will then need to include your ID Document, latest Payslip / proof of income, last 3 Months bank statements and proof of your residential address not older than 3 months.<br/><br/>
+                  
+                  Once this is received, we will apply to all the banks to find you the best rate. We will stay in touch and keep you posted during the process.
+               </mj-text>
+            </mj-column>
+         </mj-section> <!-- Plain Section -->
+      </mj-wrapper>
 
       <mj-section /> <!-- spacer -->
 
