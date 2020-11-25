@@ -152,13 +152,12 @@
          <mj-section mj-class="section" padding="15px 0px">
          
    <mj-column width="100%">
-                           <mj-text mj-class="title"
-                  padding-top="15px">
-                 Information supplied by customer:
-               </mj-text>
+   <mj-text mj-class="title" 
+      padding-top="15px" padding-bottom="20px">
+      Information supplied by customer:
+   </mj-text>
    </mj-column>
       <mj-column width="50%">
-      <mj-divider padding-bottom="15px" border-width="1px" border-style="solid" border-color="lightgrey"/>
         <mj-text font-weight="bold" padding="0px 25px" >Monthly income after deductions:</mj-text>
         
          <mj-text font-size="16px"> 
@@ -167,7 +166,6 @@
          
       </mj-column>
          <mj-column width="50%">
-         <mj-divider padding-bottom="15px" border-width="1px" border-style="solid" border-color="lightgrey"/>
         <mj-text font-weight="bold" padding="0px 25px" >Monthly expenses:</mj-text>
          <mj-text font-size="16px"> 
             R20,783
@@ -215,21 +213,28 @@
 
          <mj-wrapper padding="0 15px">
          <mj-section mj-class="section" padding="15px 0px">
+            <mj-column width="100%">
+            <mj-text mj-class="title" 
+            padding-top="15px">
+            Brought to you by:
+               </mj-text>
+            </mj-column>
 
-
-            <mj-column width="50%">
+            <mj-column width="50%" vertical-align="middle">
                               <mj-image
                src="./img/22seven-logo.png"
                alt="Welcome to 22seven"
-               padding="20px"
+               padding="15px"
+               align="center"
                />
             </mj-column> <!-- Get Debt Free -->
-            <mj-column width="50%">
+            <mj-column width="50%" vertical-align="middle">
                            <mj-image
                src="./img/multinet-logo.png"
                alt="Welcome to 22seven"
-               padding="20px"
-               width="150px"/>
+               padding="10px"
+               width="150px"
+               align="center"/>
             </mj-column> <!-- Detect Double Charge -->
             
       </mj-wrapper>
