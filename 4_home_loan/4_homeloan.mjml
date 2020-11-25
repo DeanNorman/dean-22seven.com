@@ -34,7 +34,7 @@
       <mj-section /> <!-- spacer -->
 
       <mj-wrapper padding="0 15px">
-         <mj-section mj-class="sectionGold" padding="15px 0px"  border-radius="10px"> 
+         <mj-section mj-class="sectionGold" padding="15px 17px"  border-radius="10px"> 
             <mj-column width="100%">
                            <mj-image
                   src="./img/ribbon-icon.png"
