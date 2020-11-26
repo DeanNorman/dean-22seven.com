@@ -93,55 +93,43 @@
                <mj-divider padding-top="25px" border-width="1px" border-style="solid" border-color="#E9F9F8" width="50%" />
             </mj-column>
 
-          <mj-column width="100%"> 
-            <mj-text align="center" line-height="16px" padding-bottom="20px" font-size="14px" padding-top="15px">
-                  Estimated upfront fees: 
-               </mj-text>  
-            </mj-column>
 
-            <mj-column width="20%"> </mj-column>
-             <mj-column width="35%" background-color="#E9F9F8" border-radius="20px" > 
-                <mj-text align="center"  font-weight="bold" font-size="16px">R58,646.27</mj-text>
-            </mj-column>
-            <mj-column width="20%"></mj-column>
-
-
-            <mj-column width="100%">
-               <mj-divider padding-top="25px" border-width="1px" border-style="solid" border-color="#E9F9F8" width="50%" />
-            </mj-column>
-
-          <mj-column width="100%"> 
-            <mj-text align="center" line-height="16px" padding-bottom="20px" font-size="14px" padding-top="15px">
-                  Variable interest rate (%)
-               </mj-text>  
-            </mj-column>
-
-            <mj-column width="20%"> </mj-column>
-             <mj-column width="35%" background-color="#E9F9F8" border-radius="20px" > 
-                <mj-text align="center"  font-weight="bold" font-size="16px">R31,234</mj-text>
-            </mj-column>
-            <mj-column width="20%"></mj-column>
-
-
-            <mj-column width="100%">
-               <mj-divider padding-top="25px" border-width="1px" border-style="solid" border-color="#E9F9F8" width="50%" />
-            </mj-column>
-
-          <mj-column width="100%"> 
-            <mj-text align="center" line-height="16px" padding-bottom="20px" font-size="14px" padding-top="15px">
-                  Loan term (years)
-               </mj-text>  
-            </mj-column>
-
-            <mj-column width="20%"> </mj-column>
-             <mj-column width="35%" background-color="#E9F9F8" border-radius="20px" > 
-                <mj-text align="center"  font-weight="bold" font-size="16px">20
-            </mj-text>
-            </mj-column>
-            <mj-column width="20%"></mj-column>
             <mj-column width="100%">
                <mj-divider border-width="20px" border-style="dashed" border-color="transparent" />
             </mj-column>
+                  
+         <mj-column width="33%" padding-bottom="20px">
+         <mj-text font-weight="bold" padding="0px 10px" align="center" >
+            Estimated upfront fees: 
+         </mj-text>
+            <mj-text font-size="16px" align="center" font-weight="bold"> 
+               R58,646.27
+            </mj-text>
+         </mj-column>
+                  <mj-column width="33%" padding-bottom="20px">
+         <mj-text font-weight="bold" padding="0px 10px" align="center" >
+             Variable interest rate (%)
+         </mj-text>
+            <mj-text font-size="16px" align="center" font-weight="bold"> 
+              R31,234
+            </mj-text>
+         </mj-column>
+         <mj-column width="33%">
+         <mj-text font-weight="bold" padding="0px 10px" align="center" >
+             Loan term (years)
+         </mj-text>
+            <mj-text font-size="16px" align="center" font-weight="bold"> 
+              2
+            </mj-text>
+         </mj-column>
+         
+
+
+
+
+
+        
+      </mj-column>
          </mj-section> <!-- Plain Section -->
       </mj-wrapper>
 
