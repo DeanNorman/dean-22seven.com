@@ -197,9 +197,8 @@
          </mj-section> <!-- Plain Section -->
       </mj-wrapper>
 
-      <mj-section /> <!-- spacer -->
 
-         <mj-wrapper padding="0 15px">
+         <!-- <mj-wrapper padding="0 15px">
          <mj-section mj-class="section" padding="15px 0px">
             <mj-column width="100%">
             <mj-text mj-class="title" 
@@ -215,7 +214,7 @@
                padding="15px"
                align="center"
                />
-            </mj-column> <!-- Get Debt Free -->
+            </mj-column> 
             <mj-column width="50%" vertical-align="middle">
                            <mj-image
                src="./img/multinet-logo.png"
@@ -223,9 +222,9 @@
                padding="10px"
                width="150px"
                align="center"/>
-            </mj-column> <!-- Detect Double Charge -->
+            </mj-column> 
             
-      </mj-wrapper>
+      </mj-wrapper> -->
 
          <mj-section /> <!-- spacer -->
          
