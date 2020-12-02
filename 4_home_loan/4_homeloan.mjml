@@ -197,8 +197,8 @@
          </mj-section> <!-- Plain Section -->
       </mj-wrapper>
 
-
-         <!-- <mj-wrapper padding="0 15px">
+<mj-section /> <!-- spacer -->
+         <mj-wrapper padding="0 15px">
          <mj-section mj-class="section" padding="15px 0px">
             <mj-column width="100%">
             <mj-text mj-class="title" 
@@ -224,7 +224,7 @@
                align="center"/>
             </mj-column> 
             
-      </mj-wrapper> -->
+      </mj-wrapper>
 
          <mj-section /> <!-- spacer -->
          
@@ -252,6 +252,6 @@
 
          <mj-section /> <!-- spacer -->
          
-         <mj-include path="../template_components/homeloan_footer.mjml" /> <!-- Footer Include -->
+         <mj-include path="../template_components/welcome_footer.mjml" /> <!-- Footer Include -->
    </mj-body>
 </mjml>
