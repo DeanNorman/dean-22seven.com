@@ -1,17 +1,17 @@
 <mj-section padding="0px">
    <mj-column>
        <mj-text align="left">
-         All the best,
+         All the best
          </mj-text>
        <mj-text align="left">
       The Svens (22seven's support team)
        </mj-text> 
       <mj-image 
          href="https://22seven.com?utm_source=*|MAIL_NAME|*&amp;utm_medium=email&amp;utm_campaign=InService" 
-         src="http://22seven-mailer.s3.amazonaws.com/images/globals/footers/logo-icon.png" 
+         src="https://22seven-mailer.s3.amazonaws.com/images/globals/footers/logos.png" 
          alt="22seven" 
          align="left"
-         width="122px" />
+         width="250px" />
       <mj-text align="left">
          <strong>Questions? Comments? Good Jokes?</strong><br/>
          <a href="mailto:thesvens@22seven.com" style="color: #27c5b8;">Contact The Svens</a>, our support team, any day between 8am and 8pm.
@@ -22,7 +22,7 @@
       <mj-text
          align="left"
          line-height="15px">
-         <span style="font-weight: bold">Why you got this email.</span> You signed up with 22seven and we really want to help you boss your money. We think this and other emails might help. You can <a href="*|BASE_URL|*app/unsubscribe/*|C_ID|*?utm_source=*|MAIL_NAME|*&utm_medium=email&utm_campaign=InService" style="color: #27c5b8;">opt out</a> of emails with news, updates and tips.
+         <span style="font-weight: bold">Why you got this email.</span> You opted in with our 22seven home loan calculator. We think this and other emails might help. You can <a href="*|BASE_URL|*app/unsubscribe/*|C_ID|*?utm_source=*|MAIL_NAME|*&utm_medium=email&utm_campaign=InService" style="color: #27c5b8;">opt out</a> of emails with news, updates and tips.
          <span style="font-weight: bold">To close your 22seven profile</span>, follow the instructions <a href="https://conversations.22seven.com/hc/en-us/articles/200541998-How-do-I-close-my-22seven-profile-/?utm_source=*|MAIL_NAME|*&amp;utm_medium=email&amp;utm_campaign=InService " style="color: #27c5b8;">here</a>.
       </mj-text> 
    </mj-column>

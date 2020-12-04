@@ -50,7 +50,14 @@
       <mj-class
          name="section"
          background-color="#fff"
-         border-radius="15px" />
+         border-radius="15px"
+          />
+
+      <mj-class
+         name="sectionGold"
+         background-color="#fff"
+         border="3px solid #FFD04C"
+          />
 
 
       <mj-class
