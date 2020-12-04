@@ -13,7 +13,7 @@
          padding="14px 0px">
             <mj-column width="72%">
                <mj-image
-                  src="./img/header-text.png"
+                  src="https://22seven-mailer.s3.amazonaws.com/images/4.1/header-text.png"
                   alt="Welcome to 22seven"
                   padding-top="40px"
                   align="center"
@@ -24,7 +24,7 @@
             <mj-column width="24%">
                <mj-image
                   align="center"
-                  src="./img/house-icon.png"
+                  src="https://22seven-mailer.s3.amazonaws.com/images/4.1/house-icon.png"
                   alt="Welcome to 22seven"
              />
             </mj-column>
@@ -37,7 +37,7 @@
          <mj-section mj-class="sectionGold" padding="15px 17px"  border-radius="10px"> 
             <mj-column width="100%">
                            <mj-image
-                  src="./img/ribbon-icon.png"
+                  src="https://22seven-mailer.s3.amazonaws.com/images/4.1/ribbon-icon.png"
                   alt="Welcome to 22seven"
                   width="100px"/>
                <mj-text
@@ -123,12 +123,6 @@
             </mj-text>
          </mj-column>
          
-
-
-
-
-
-        
       </mj-column>
          </mj-section> <!-- Plain Section -->
       </mj-wrapper>
@@ -172,23 +166,18 @@
                
             
             <mj-column>
-                          <!-- <mj-image
-                  src="./img/house-icon.png"
-                  alt="Welcome to 22seven"
-                  padding="20px"
-                  width="100px"/> -->
-                                 <mj-text mj-class="title"
+               <mj-text mj-class="title"
                   padding-top="15px">
                   What are the next steps?
                </mj-text>
                <mj-text mj-class="sectionText--normal">
                   Congratulations on taking the first step towards getting the best deal on your home loan! We’re excited to present you with your pre-qualification certificate, which we’ve included in this email.<br/><br/>
 
-We’ve also included the one and only home loan application form you’ll need to complete and return to us once you’ve found your dream home.<br/><br/>
+                  We’ve also included the one and only home loan application form you’ll need to complete and return to us once you’ve found your dream home.<br/><br/>
 
-Please include a copy of your ID book/card, your latest payslip/proof of income, your last 3 months of bank statements and proof of your residential address that’s not older than 3 months.<br/><br/>
+                  Please include a copy of your ID book/card, your latest payslip/proof of income, your last 3 months of bank statements and proof of your residential address that’s not older than 3 months.<br/><br/>
 
-Once we get this, MultiNet will apply to all the banks and find you the best rate. We’ll stay in touch and keep you posted during the process.
+                  Once we get this, MultiNet will apply to all the banks and find you the best rate. We’ll stay in touch and keep you posted during the process.
                </mj-text>
             </mj-column>
          </mj-section> <!-- Plain Section -->
@@ -205,16 +194,16 @@ Once we get this, MultiNet will apply to all the banks and find you the best rat
             </mj-column>
 
             <mj-column width="50%" vertical-align="middle">
-                              <mj-image
-               src="./img/22seven-logo.png"
+               <mj-image
+               src="https://22seven-mailer.s3.amazonaws.com/images/4.1/22seven-logo.png"
                alt="Welcome to 22seven"
                padding="15px"
                align="center"
                />
             </mj-column> 
             <mj-column width="50%" vertical-align="middle">
-                           <mj-image
-               src="./img/multinet-logo.png"
+            <mj-image
+               src="https://22seven-mailer.s3.amazonaws.com/images/4.1/multinet-logo.png"
                alt="Welcome to 22seven"
                padding="10px"
                width="150px"
